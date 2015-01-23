@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -84,8 +84,7 @@
 <smd name="9" x="3.0734" y="-2.54" dx="0.6604" dy="2.032" layer="1" rot="R270"/>
 <smd name="7" x="-3.0734" y="-3.81" dx="0.6604" dy="2.032" layer="1" rot="R270"/>
 <smd name="8" x="3.0734" y="-3.81" dx="0.6604" dy="2.032" layer="1" rot="R270"/>
-<text x="-0.635" y="3.556" size="1.27" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
-<text x="-1.778" y="4.699" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.778" y="4.699" size="0.6096" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <rectangle x1="2.2733" y1="-0.5715" x2="2.7813" y2="0.5715" layer="51" rot="R270"/>
 <rectangle x1="-2.7813" y1="3.2385" x2="-2.2733" y2="4.3815" layer="51" rot="R270"/>
 <rectangle x1="-2.7813" y1="1.9685" x2="-2.2733" y2="3.1115" layer="51" rot="R270"/>
