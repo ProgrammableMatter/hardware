@@ -49,6 +49,7 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -6486,6 +6487,40 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="reset_pad">
+<packages>
+<package name="SWITCH-PAD-FORMED">
+<smd name="P$1" x="-1.27" y="0" dx="3.81" dy="1.9304" layer="1" rot="R90"/>
+<smd name="P$2" x="2.54" y="0" dx="3.81" dy="1.9304" layer="1" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RESET1">
+<pin name="P$2" x="-7.62" y="0" length="middle"/>
+<wire x1="-2.54" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
+<pin name="P$3" x="5.08" y="0" length="middle" rot="R180"/>
+<text x="-5.08" y="5.08" size="1.778" layer="94" font="vector">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PAD-RESET-SWITCH">
+<gates>
+<gate name="G$1" symbol="RESET1" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SWITCH-PAD-FORMED">
+<connects>
+<connect gate="G$1" pin="P$2" pad="P$1"/>
+<connect gate="G$1" pin="P$3" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6551,6 +6586,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP14" library="testpad" deviceset="TPS" device="PAD1-13"/>
 <part name="TPI" library="con-garry" deviceset="332-06" device=""/>
 <part name="SPI" library="con-garry" deviceset="332-06" device=""/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1210" value="1k"/>
+<part name="RESET-SW" library="reset_pad" deviceset="PAD-RESET-SWITCH" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6621,6 +6658,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="SPI" gate="-4" x="124.46" y="-66.04"/>
 <instance part="SPI" gate="-5" x="124.46" y="-58.42"/>
 <instance part="SPI" gate="-6" x="124.46" y="-68.58"/>
+<instance part="R1" gate="G$1" x="40.64" y="17.78" rot="MR90"/>
+<instance part="RESET-SW" gate="G$1" x="40.64" y="-2.54" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6630,11 +6669,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="IC1" gate="B" pin="GND"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="63.5" y1="2.54" x2="55.88" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="2.54" x2="55.88" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="2.54" x2="55.88" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="PAD"/>
+<wire x1="55.88" y1="-12.7" x2="55.88" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-20.32" x2="55.88" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-20.32" x2="55.88" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="55.88" y="-20.32"/>
+<pinref part="RESET-SW" gate="G$1" pin="P$2"/>
+<wire x1="40.64" y1="-10.16" x2="40.64" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-12.7" x2="55.88" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="55.88" y="-12.7"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -6745,9 +6789,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="RESET" class="0">
 <segment>
-<wire x1="63.5" y1="10.16" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
-<label x="58.42" y="10.16" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="63.5" y1="10.16" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
+<label x="35.56" y="10.16" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC1" gate="B" pin="PB3"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="10.16" x2="35.56" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="12.7" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
+<junction x="40.64" y="10.16"/>
+<pinref part="RESET-SW" gate="G$1" pin="P$3"/>
+<wire x1="40.64" y1="10.16" x2="40.64" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TPI" gate="-5" pin="S"/>
@@ -6922,8 +6972,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="IC1" gate="B" pin="VCC"/>
 <wire x1="63.5" y1="20.32" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="20.32" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="20.32" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="22.86" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
+<junction x="55.88" y="22.86"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
