@@ -1236,30 +1236,35 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;a href="www.mpe-connector.de"&gt;Menufacturer&lt;/a&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="332-04">
-<description>&lt;b&gt;4 Pin - 2mm Dual Row&lt;/b&gt;&lt;p&gt;
+<package name="332-06">
+<description>&lt;b&gt;6 Pin - 2mm Dual Row&lt;/b&gt;&lt;p&gt;
 Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
-<wire x1="-1.85" y1="-1.9" x2="1.85" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="1.85" y1="-1.9" x2="1.85" y2="-0.4" width="0.2032" layer="21"/>
-<wire x1="1.85" y1="0.4" x2="1.85" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="1.85" y1="1.9" x2="-1.85" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="-1.85" y1="1.9" x2="-1.85" y2="0.4" width="0.2032" layer="21"/>
-<wire x1="-1.85" y1="-0.4" x2="-1.85" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-1.85" y1="0.4" x2="-1.85" y2="-0.4" width="0.2032" layer="21" curve="-129.185"/>
-<wire x1="1.85" y1="-0.4" x2="1.85" y2="0.4" width="0.2032" layer="21" curve="-129.185"/>
-<pad name="1" x="-1" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="2" x="-1" y="1" drill="0.9" diameter="1.27"/>
-<pad name="3" x="1" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="4" x="1" y="1" drill="0.9" diameter="1.27"/>
-<text x="-1.65" y="-1.75" size="0.3048" layer="21" font="vector">1</text>
-<text x="-1.62" y="2.19" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.62" y="3.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.25" y1="-1.25" x2="-0.75" y2="-0.75" layer="51"/>
-<rectangle x1="-1.25" y1="0.75" x2="-0.75" y2="1.25" layer="51"/>
-<rectangle x1="0.75" y1="-1.25" x2="1.25" y2="-0.75" layer="51"/>
-<rectangle x1="0.75" y1="0.75" x2="1.25" y2="1.25" layer="51"/>
-<wire x1="-1" y1="1" x2="-1" y2="-6" width="0.55" layer="51"/>
-<wire x1="1" y1="1" x2="1" y2="-6" width="0.55" layer="51"/>
+<wire x1="-2.85" y1="-1.9" x2="2.85" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="2.85" y1="-1.9" x2="2.85" y2="-0.4" width="0.2032" layer="21"/>
+<wire x1="2.85" y1="0.4" x2="2.85" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="2.85" y1="1.9" x2="-2.85" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-2.85" y1="1.9" x2="-2.85" y2="0.4" width="0.2032" layer="21"/>
+<wire x1="-2.85" y1="-0.4" x2="-2.85" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-2.85" y1="0.4" x2="-2.85" y2="-0.4" width="0.2032" layer="21" curve="-129.185"/>
+<wire x1="2.85" y1="-0.4" x2="2.85" y2="0.4" width="0.2032" layer="21" curve="-129.185"/>
+<pad name="1" x="-2" y="-1" drill="0.9" diameter="1.27"/>
+<pad name="2" x="-2" y="1" drill="0.9" diameter="1.27"/>
+<pad name="3" x="0" y="-1" drill="0.9" diameter="1.27"/>
+<pad name="4" x="0" y="1" drill="0.9" diameter="1.27"/>
+<pad name="5" x="2" y="-1" drill="0.9" diameter="1.27"/>
+<pad name="6" x="2" y="1" drill="0.9" diameter="1.27"/>
+<text x="-2.65" y="-1.75" size="0.3048" layer="21" font="vector">1</text>
+<text x="-2.62" y="2.19" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.62" y="3.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.25" y1="-1.25" x2="-1.75" y2="-0.75" layer="51"/>
+<rectangle x1="-2.25" y1="0.75" x2="-1.75" y2="1.25" layer="51"/>
+<rectangle x1="-0.25" y1="-1.25" x2="0.25" y2="-0.75" layer="51"/>
+<rectangle x1="-0.25" y1="0.75" x2="0.25" y2="1.25" layer="51"/>
+<rectangle x1="1.75" y1="-1.25" x2="2.25" y2="-0.75" layer="51"/>
+<rectangle x1="1.75" y1="0.75" x2="2.25" y2="1.25" layer="51"/>
+<wire x1="-2" y1="1" x2="-2" y2="-6" width="0.55" layer="51"/>
+<wire x1="0" y1="1" x2="0" y2="-6" width="0.55" layer="51"/>
+<wire x1="2" y1="1" x2="2" y2="-6" width="0.55" layer="51"/>
 </package>
 </packages>
 </library>
@@ -1558,10 +1563,6 @@ Covered vias can be set in Masks (Limit).
 </pass>
 </autorouter>
 <elements>
-<element name="TPI" library="con-garry" package="332-04" value="332-04" x="71.12" y="43.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="70.835" y="37.75" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="67.58" y="41.56" size="1.27" layer="27" rot="R90"/>
-</element>
 <element name="IC1" library="tiny_particles_MCU" package="QFN45P300X300X85-21N" value="ATTINY20-MMH" x="63.1825" y="48.5775"/>
 <element name="R5" library="rcl" package="R1210" value="470" x="87.9475" y="56.1975"/>
 <element name="R4" library="rcl" package="R1210" value="470" x="87.63" y="52.07"/>
@@ -1618,10 +1619,11 @@ Covered vias can be set in Masks (Limit).
 <element name="TP14" library="testpad" package="P1-13" value="TPSPAD1-13" x="55.5625" y="9.2075">
 <attribute name="TP_SIGNAL_NAME" value="" x="32.385" y="-16.8275" size="1.778" layer="27" display="off"/>
 </element>
+<element name="TPI" library="con-garry" package="332-06" value="332-06" x="-5.08" y="6.35"/>
+<element name="SPI" library="con-garry" package="332-06" value="332-06" x="-13.335" y="6.35"/>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="TPI" pad="1"/>
 <contactref element="IC1" pad="8"/>
 <contactref element="IC1" pad="21"/>
 <contactref element="R3" pad="2"/>
@@ -1633,22 +1635,27 @@ Covered vias can be set in Masks (Limit).
 <contactref element="IC2" pad="1"/>
 <contactref element="R6" pad="1"/>
 <contactref element="R9" pad="1"/>
-<wire x1="56.0675" y1="28.575" x2="56.9675" y2="4.23" width="0" layer="19" extent="1-1"/>
+<contactref element="TPI" pad="6"/>
+<contactref element="SPI" pad="6"/>
+<contactref element="TPI" pad="4"/>
+<wire x1="89.03" y1="52.07" x2="89.3475" y2="56.1975" width="0" layer="19" extent="1-1"/>
+<wire x1="89.03" y1="47.9425" x2="89.03" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="63.1825" y1="48.5775" x2="89.03" y2="47.9425" width="0" layer="19" extent="1-1"/>
+<wire x1="63.1825" y1="47.1297" x2="63.1825" y2="48.5775" width="0" layer="19" extent="1-1"/>
+<wire x1="56.0675" y1="28.575" x2="63.1825" y2="47.1297" width="0" layer="19" extent="1-1"/>
 <wire x1="50.3525" y1="28.575" x2="56.0675" y2="28.575" width="0" layer="19" extent="1-1"/>
-<wire x1="3.68" y1="32.0675" x2="50.3525" y2="28.575" width="0" layer="19" extent="1-1"/>
-<wire x1="3.68" y1="45.4025" x2="3.68" y2="32.0675" width="0" layer="19" extent="1-1"/>
-<wire x1="36.6475" y1="54.0775" x2="3.68" y2="45.4025" width="0" layer="19" extent="1-1"/>
-<wire x1="63.1825" y1="47.1297" x2="36.6475" y2="54.0775" width="0" layer="19" extent="1-1"/>
-<wire x1="63.1825" y1="48.5775" x2="63.1825" y2="47.1297" width="0" layer="19" extent="1-1"/>
-<wire x1="72.12" y1="42.18" x2="63.1825" y2="47.1297" width="0" layer="19" extent="1-1"/>
-<wire x1="89.03" y1="47.9425" x2="72.12" y2="42.18" width="0" layer="19" extent="1-1"/>
-<wire x1="89.03" y1="52.07" x2="89.03" y2="47.9425" width="0" layer="19" extent="1-1"/>
-<wire x1="89.3475" y1="56.1975" x2="89.03" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="56.9675" y1="4.23" x2="56.0675" y2="28.575" width="0" layer="19" extent="1-1"/>
+<wire x1="36.6475" y1="54.0775" x2="63.1825" y2="48.5775" width="0" layer="19" extent="1-1"/>
+<wire x1="3.68" y1="45.4025" x2="36.6475" y2="54.0775" width="0" layer="19" extent="1-1"/>
+<wire x1="3.68" y1="32.0675" x2="3.68" y2="45.4025" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.08" y1="7.35" x2="3.68" y2="32.0675" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.08" y1="7.35" x2="-3.08" y2="7.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.335" y1="7.35" x2="-5.08" y2="7.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TPI_CLK">
-<contactref element="TPI" pad="2"/>
 <contactref element="IC1" pad="11"/>
-<wire x1="64.6303" y1="47.6885" x2="70.12" y2="42.18" width="0" layer="19" extent="1-1"/>
+<contactref element="TPI" pad="3"/>
+<wire x1="-5.08" y1="5.35" x2="64.6303" y2="47.6885" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWR_TX_B">
 <contactref element="IC1" pad="4"/>
@@ -1657,15 +1664,19 @@ Covered vias can be set in Masks (Limit).
 <wire x1="37.1475" y1="54.0775" x2="45.085" y2="33.02" width="0" layer="19" extent="1-1"/>
 <wire x1="61.7347" y1="48.1203" x2="37.1475" y2="54.0775" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="TPI_DATA">
-<contactref element="TPI" pad="4"/>
+<signal name="TPI_DATA/MOSI">
 <contactref element="IC1" pad="12"/>
-<wire x1="64.6303" y1="48.1203" x2="70.12" y2="44.18" width="0" layer="19" extent="1-1"/>
+<contactref element="TPI" pad="1"/>
+<contactref element="SPI" pad="4"/>
+<wire x1="-7.08" y1="5.35" x2="64.6303" y2="48.1203" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.335" y1="7.35" x2="-7.08" y2="5.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET">
-<contactref element="TPI" pad="3"/>
 <contactref element="IC1" pad="13"/>
-<wire x1="64.6303" y1="48.5775" x2="72.12" y2="44.18" width="0" layer="19" extent="1-1"/>
+<contactref element="TPI" pad="5"/>
+<contactref element="SPI" pad="5"/>
+<wire x1="-3.08" y1="5.35" x2="64.6303" y2="48.5775" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.335" y1="5.35" x2="-3.08" y2="5.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX_B" class="1">
 <contactref element="IC1" pad="3"/>
@@ -1721,19 +1732,23 @@ Covered vias can be set in Masks (Limit).
 <wire x1="71.4375" y1="54.9275" x2="74.45" y2="54.61" width="0" layer="19" extent="1-1"/>
 <wire x1="64.0715" y1="50.0253" x2="71.4375" y2="54.9275" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$22">
+<signal name="MISO">
 <contactref element="IC1" pad="14"/>
 <contactref element="LED3" pad="A"/>
 <contactref element="TP12" pad="TP"/>
+<contactref element="SPI" pad="1"/>
 <wire x1="71.12" y1="48.5775" x2="74.45" y2="49.2125" width="0" layer="19" extent="1-1"/>
 <wire x1="64.6303" y1="49.0347" x2="71.12" y2="48.5775" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.335" y1="5.35" x2="64.6303" y2="49.0347" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$23">
+<signal name="SCK">
 <contactref element="LED2" pad="A"/>
 <contactref element="TP11" pad="TP"/>
 <contactref element="IC1" pad="15"/>
+<contactref element="SPI" pad="3"/>
 <wire x1="71.4375" y1="51.7525" x2="74.45" y2="52.07" width="0" layer="19" extent="1-1"/>
 <wire x1="64.6303" y1="49.4665" x2="71.4375" y2="51.7525" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.335" y1="5.35" x2="64.6303" y2="49.4665" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="R5" pad="1"/>
@@ -1756,10 +1771,14 @@ Covered vias can be set in Masks (Limit).
 <contactref element="R2" pad="2"/>
 <contactref element="IC3" pad="4"/>
 <contactref element="IC2" pad="4"/>
+<contactref element="TPI" pad="2"/>
+<contactref element="SPI" pad="2"/>
 <wire x1="47.4375" y1="28.575" x2="63.6397" y2="47.1297" width="0" layer="19" extent="1-1"/>
 <wire x1="57.9675" y1="5.93" x2="47.4375" y2="28.575" width="0" layer="19" extent="1-1"/>
 <wire x1="37.6475" y1="55.7775" x2="63.6397" y2="47.1297" width="0" layer="19" extent="1-1"/>
 <wire x1="17.275" y1="59.055" x2="37.6475" y2="55.7775" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.08" y1="7.35" x2="17.275" y2="59.055" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.335" y1="7.35" x2="-7.08" y2="7.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="IC3" pad="6"/>
