@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -158,8 +158,8 @@
 <pad name="P$1" x="0" y="0" drill="0.2" diameter="0.3048" shape="square"/>
 </package>
 <package name="SMA-DOUBLE_PIN">
-<pad name="L" x="1" y="0" drill="0.5" shape="square"/>
-<pad name="R" x="-1" y="0" drill="0.5" shape="square"/>
+<pad name="L" x="1" y="0" drill="0.8" shape="square"/>
+<pad name="R" x="-1" y="0" drill="0.8" shape="square"/>
 <hole x="0" y="0.5" drill="0.5"/>
 <hole x="0" y="-0.5" drill="0.5"/>
 </package>

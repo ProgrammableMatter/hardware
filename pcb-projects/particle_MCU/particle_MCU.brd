@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0635" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.00635" altunitdist="mm" altunit="mm"/>
+<grid distance="0.000003125" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.00635" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -400,9 +400,12 @@ Covered vias can be set in Masks (Limit).
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="0.0375mm"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="*"/>
-<param name="PrefDir.2" value="*"/>
+<param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
 <param name="PrefDir.5" value="0"/>
@@ -415,7 +418,7 @@ Covered vias can be set in Masks (Limit).
 <param name="PrefDir.12" value="0"/>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
-<param name="PrefDir.15" value="*"/>
+<param name="PrefDir.15" value="0"/>
 <param name="PrefDir.16" value="*"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
