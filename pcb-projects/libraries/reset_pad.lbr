@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.635" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -63,6 +63,10 @@
 <smd name="P$1" x="-1.27" y="0" dx="2.54" dy="1.27" layer="1" rot="R90"/>
 <smd name="P$2" x="0.635" y="0" dx="2.54" dy="1.27" layer="1" rot="R90"/>
 </package>
+<package name="SWITCH-PAD-FORMED-SMALL">
+<smd name="P$1" x="-0.9525" y="0" dx="1.27" dy="1.27" layer="1" rot="R270"/>
+<smd name="P$2" x="0.9525" y="0" dx="1.27" dy="1.27" layer="1" rot="R270"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESET1">
@@ -79,6 +83,15 @@
 </gates>
 <devices>
 <device name="" package="SWITCH-PAD-FORMED">
+<connects>
+<connect gate="G$1" pin="P$2" pad="P$1"/>
+<connect gate="G$1" pin="P$3" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMALL" package="SWITCH-PAD-FORMED-SMALL">
 <connects>
 <connect gate="G$1" pin="P$2" pad="P$1"/>
 <connect gate="G$1" pin="P$3" pad="P$2"/>
