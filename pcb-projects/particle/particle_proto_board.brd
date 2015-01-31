@@ -105,10 +105,11 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="-0.635" x2="35.5475" y2="-0.635" width="0" layer="20"/>
-<wire x1="35.5475" y1="-0.635" x2="35.56" y2="33.655" width="0" layer="20"/>
-<wire x1="35.56" y1="33.655" x2="0" y2="33.655" width="0" layer="20"/>
-<wire x1="0" y1="33.655" x2="0" y2="-0.635" width="0" layer="20"/>
+<wire x1="-0.635" y1="-1.27" x2="36.1825" y2="-1.27" width="0" layer="20"/>
+<wire x1="36.1825" y1="-1.27" x2="36.195" y2="34.29" width="0" layer="20"/>
+<wire x1="36.195" y1="34.29" x2="-0.635" y2="34.29" width="0" layer="20"/>
+<wire x1="-0.635" y1="34.29" x2="-0.635" y2="-1.27" width="0" layer="20"/>
+<text x="35.163125" y="25.24125" size="0.6858" layer="1" font="vector" ratio="22" distance="8" rot="SR270">RUBIEN R. 1/2015 V.9 - TU-GRAZ/ITI</text>
 </plain>
 <libraries>
 <library name="led">
@@ -1761,8 +1762,17 @@ Covered vias can be set in Masks (Limit).
 <wire x1="10.005" y1="29.69" x2="10.005" y2="28.575" width="0.254" layer="1"/>
 <wire x1="6.985" y1="0" x2="4.1275" y2="2.8575" width="0.254" layer="1"/>
 <wire x1="4.1275" y1="2.8575" x2="4.1275" y2="3.4925" width="0.254" layer="1"/>
-<wire x1="12.065" y1="24.92" x2="12.065" y2="24.765" width="0" layer="19" extent="1-1"/>
-<wire x1="16.98625" y1="19.8755" x2="17.145" y2="19.685" width="0" layer="19" extent="1-1"/>
+<polygon width="0.254" layer="1" isolate="0.6096">
+<vertex x="5.715" y="34.29"/>
+<vertex x="5.715" y="-1.27"/>
+<vertex x="36.195" y="-1.27"/>
+<vertex x="36.195" y="4.1275"/>
+<vertex x="34.29" y="4.1275"/>
+<vertex x="34.29" y="26.035"/>
+<vertex x="36.195" y="26.035"/>
+<vertex x="36.195" y="34.29"/>
+</polygon>
+<wire x1="17.145" y1="19.685" x2="16.98625" y2="19.8755" width="0" layer="19" extent="1-1"/>
 <wire x1="8.255" y1="33.02" x2="11.43" y2="31.115" width="0" layer="19" extent="1-1"/>
 <wire x1="9.2075" y1="3.4925" x2="6.985" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1907,14 +1917,13 @@ Covered vias can be set in Masks (Limit).
 <wire x1="1.5875" y1="23.8125" x2="0.635" y2="22.86" width="0.254" layer="1"/>
 <wire x1="0.635" y1="22.86" x2="0.635" y2="3.81" width="0.254" layer="1"/>
 <wire x1="0.635" y1="3.81" x2="1.905" y2="2.54" width="0.254" layer="1"/>
-<wire x1="3.175" y1="23.8125" x2="3.175" y2="23.835" width="0" layer="19" extent="1-1"/>
-<wire x1="6.985" y1="18.415" x2="10.1825" y2="21.59" width="0" layer="19" extent="1-1"/>
-<polygon width="0.254" layer="1">
-<vertex x="4.445" y="33.655"/>
-<vertex x="0" y="33.655"/>
-<vertex x="0" y="-0.635"/>
-<vertex x="4.445" y="-0.635"/>
+<polygon width="0.254" layer="1" isolate="0.6096">
+<vertex x="4.445" y="34.29"/>
+<vertex x="-0.635" y="34.29"/>
+<vertex x="-0.635" y="-1.27"/>
+<vertex x="4.445" y="-1.27"/>
 </polygon>
+<wire x1="10.1825" y1="21.59" x2="6.985" y2="18.415" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX_B">
 <contactref element="IC3" pad="6"/>
@@ -2212,14 +2221,6 @@ Covered vias can be set in Masks (Limit).
 <contactref element="R11" pad="1"/>
 <wire x1="22.1225" y1="25.2175" x2="22.1225" y2="24.0275" width="0.254" layer="1"/>
 <wire x1="22.1225" y1="24.0275" x2="20.955" y2="22.86" width="0.254" layer="1"/>
-</signal>
-<signal name="N$25">
-<polygon width="0.254" layer="1">
-<vertex x="5.08" y="33.655"/>
-<vertex x="5.08" y="-1.27"/>
-<vertex x="36.195" y="-1.27"/>
-<vertex x="35.56" y="33.655"/>
-</polygon>
 </signal>
 </signals>
 <errors>
