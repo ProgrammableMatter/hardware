@@ -1666,7 +1666,7 @@ Covered vias can be set in Masks (Limit).
 <element name="VCC_A" library="wirepad" package="1,6/0,9" value="VCC_A" x="1.905" y="2.54" rot="R90"/>
 <element name="VCC_B" library="wirepad" package="1,6/0,9" value="VCC_B" x="1.905" y="31.115"/>
 <element name="GND_A" library="wirepad" package="1,6/0,9" value="GND_A" x="33.655" y="2.54"/>
-<element name="GND_B" library="wirepad" package="1,6/0,9" value="GND_b" x="33.655" y="31.115"/>
+<element name="GND_B" library="wirepad" package="1,6/0,9" value="GND_B" x="33.655" y="31.115"/>
 <element name="RXB" library="wirepad" package="1,6/0,9" value="RXB" x="27.305" y="30.48" rot="R90"/>
 <element name="TXB" library="wirepad" package="1,6/0,9" value="TXB" x="20.32" y="30.48" rot="R90"/>
 <element name="RXA" library="wirepad" package="1,6/0,9" value="RXA" x="20.32" y="2.54"/>
