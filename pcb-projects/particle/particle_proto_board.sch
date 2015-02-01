@@ -8123,15 +8123,15 @@ Source: www.kingbright.com</description>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R2010" value="1k"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="SML1206" value="SGNL_LED"/>
+<part name="SGNL_LED" library="led" deviceset="LED" device="SML1206" value="GRN"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="IC3" library="diodes" deviceset="DMC2400V" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R2010" value="1k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="TXB_LED" library="led" deviceset="LED" device="SML1206" value="x"/>
-<part name="RXB_LED" library="led" deviceset="LED" device="SML1206" value="x"/>
+<part name="TXB_LED" library="led" deviceset="LED" device="SML1206" value="RED"/>
+<part name="RXB_LED" library="led" deviceset="LED" device="SML1206" value="GRN"/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R2010" value="1k"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="diodes" deviceset="DMC2400V" device=""/>
@@ -8139,8 +8139,8 @@ Source: www.kingbright.com</description>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R2010" value="1k"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="TXA_LED" library="led" deviceset="LED" device="SML1206" value="x"/>
-<part name="RXA_LED" library="led" deviceset="LED" device="SML1206" value="x"/>
+<part name="TXA_LED" library="led" deviceset="LED" device="SML1206" value="RED"/>
+<part name="RXA_LED" library="led" deviceset="LED" device="SML1206" value="GRN"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R2010" value="1k"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="PI" library="con-garry" deviceset="332-06" device=""/>
@@ -8164,10 +8164,10 @@ Source: www.kingbright.com</description>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="RESET" library="jumper" deviceset="SJ" device="" value="RESET"/>
+<part name="VCC_A" library="wirepad" deviceset="1,6/0,9" device="" value="VCC_A"/>
 <part name="VCC_B" library="wirepad" deviceset="1,6/0,9" device="" value="VCC_B"/>
-<part name="VCC_T" library="wirepad" deviceset="1,6/0,9" device="" value="VCC_T"/>
-<part name="GND_B" library="wirepad" deviceset="1,6/0,9" device="" value="GND_B"/>
-<part name="GND_T" library="wirepad" deviceset="1,6/0,9" device="" value="GND_T"/>
+<part name="GND_A" library="wirepad" deviceset="1,6/0,9" device="" value="GND_A"/>
+<part name="GND_B" library="wirepad" deviceset="1,6/0,9" device="" value="GND_b"/>
 <part name="RXB" library="wirepad" deviceset="1,6/0,9" device="" value="RXB"/>
 <part name="TXB" library="wirepad" deviceset="1,6/0,9" device="" value="TXB"/>
 <part name="RXA" library="wirepad" deviceset="1,6/0,9" device="" value="RXA"/>
@@ -8181,7 +8181,7 @@ Source: www.kingbright.com</description>
 <part name="R10" library="jumper" deviceset="J" device="5MM" value=""/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R2010" value="1k"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="LED2" library="led" deviceset="LED" device="SML1206" value="PWR_LED"/>
+<part name="PWR_LED" library="led" deviceset="LED" device="SML1206" value="RED"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="R11" library="jumper" deviceset="J" device="5MM" value=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
@@ -8223,6 +8223,11 @@ Source: www.kingbright.com</description>
 SW1 | 2-3 | 1-2
 SW2 | 2-3 | 1-2
 SW3 | 2-3 | 1-2</text>
+<wire x1="43.18" y1="-93.98" x2="210.82" y2="-93.98" width="0.3048" layer="108"/>
+<wire x1="43.18" y1="-129.54" x2="210.82" y2="-129.54" width="0.3048" layer="108"/>
+<wire x1="43.18" y1="-129.54" x2="43.18" y2="-93.98" width="0.3048" layer="108"/>
+<wire x1="210.82" y1="-129.54" x2="210.82" y2="-93.98" width="0.3048" layer="108"/>
+<text x="50.8" y="-101.6" size="2.54" layer="108" font="vector">SHUNTS</text>
 </plain>
 <instances>
 <instance part="IC1" gate="B" x="119.38" y="20.32"/>
@@ -8230,7 +8235,7 @@ SW3 | 2-3 | 1-2</text>
 <instance part="GND13" gate="1" x="93.98" y="-20.32"/>
 <instance part="R5" gate="G$1" x="167.64" y="10.16" rot="R270"/>
 <instance part="GND16" gate="1" x="167.64" y="-22.86"/>
-<instance part="LED1" gate="G$1" x="167.64" y="0"/>
+<instance part="SGNL_LED" gate="G$1" x="167.64" y="0"/>
 <instance part="P+2" gate="VCC" x="93.98" y="35.56"/>
 <instance part="IC3" gate="A" x="-71.12" y="17.78" rot="MR0"/>
 <instance part="IC3" gate="B" x="-76.2" y="-43.18" rot="R180"/>
@@ -8278,10 +8283,10 @@ SW3 | 2-3 | 1-2</text>
 <instance part="P+4" gate="VCC" x="78.74" y="-66.04"/>
 <instance part="GND2" gate="1" x="60.96" y="-66.04" rot="MR0"/>
 <instance part="RESET" gate="1" x="66.04" y="0" rot="R270"/>
-<instance part="VCC_B" gate="1" x="83.82" y="-81.28" rot="R90"/>
-<instance part="VCC_T" gate="1" x="73.66" y="-81.28" rot="R90"/>
-<instance part="GND_B" gate="1" x="66.04" y="-53.34" rot="R270"/>
-<instance part="GND_T" gate="1" x="55.88" y="-53.34" rot="R270"/>
+<instance part="VCC_A" gate="1" x="83.82" y="-81.28" rot="R90"/>
+<instance part="VCC_B" gate="1" x="73.66" y="-81.28" rot="R90"/>
+<instance part="GND_A" gate="1" x="66.04" y="-53.34" rot="R270"/>
+<instance part="GND_B" gate="1" x="55.88" y="-53.34" rot="R270"/>
 <instance part="RXB" gate="1" x="-106.68" y="-33.02" rot="R270"/>
 <instance part="TXB" gate="1" x="-106.68" y="-20.32" rot="R90"/>
 <instance part="RXA" gate="1" x="27.94" y="-33.02" rot="R270"/>
@@ -8295,18 +8300,18 @@ SW3 | 2-3 | 1-2</text>
 <instance part="R10" gate="1" x="-7.62" y="5.08" rot="MR270"/>
 <instance part="R4" gate="G$1" x="193.04" y="10.16" rot="R270"/>
 <instance part="GND8" gate="1" x="193.04" y="-22.86"/>
-<instance part="LED2" gate="G$1" x="193.04" y="0"/>
+<instance part="PWR_LED" gate="G$1" x="193.04" y="0"/>
 <instance part="P+3" gate="VCC" x="193.04" y="20.32"/>
 <instance part="R11" gate="1" x="-71.12" y="5.08" rot="MR270"/>
-<instance part="P+5" gate="VCC" x="58.42" y="-106.68" rot="R90"/>
-<instance part="P+7" gate="VCC" x="73.66" y="-106.68" rot="R270"/>
-<instance part="R12" gate="1" x="66.04" y="-106.68" rot="MR0"/>
-<instance part="GND9" gate="1" x="111.76" y="-106.68" rot="R270"/>
-<instance part="GND10" gate="1" x="127" y="-106.68" rot="R90"/>
-<instance part="GND11" gate="1" x="111.76" y="-119.38" rot="R270"/>
-<instance part="GND12" gate="1" x="127" y="-119.38" rot="R90"/>
-<instance part="R16" gate="1" x="119.38" y="-119.38" rot="MR0"/>
-<instance part="R15" gate="1" x="119.38" y="-106.68" rot="MR0"/>
+<instance part="P+5" gate="VCC" x="142.24" y="-119.38" rot="R90"/>
+<instance part="P+7" gate="VCC" x="157.48" y="-119.38" rot="R270"/>
+<instance part="R12" gate="1" x="149.86" y="-119.38" rot="MR0"/>
+<instance part="GND9" gate="1" x="182.88" y="-104.14" rot="R270"/>
+<instance part="GND10" gate="1" x="198.12" y="-104.14" rot="R90"/>
+<instance part="GND11" gate="1" x="182.88" y="-119.38" rot="R270"/>
+<instance part="GND12" gate="1" x="198.12" y="-119.38" rot="R90"/>
+<instance part="R16" gate="1" x="190.5" y="-119.38" rot="MR0"/>
+<instance part="R15" gate="1" x="190.5" y="-104.14" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -8353,8 +8358,8 @@ SW3 | 2-3 | 1-2</text>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="60.96" y1="-63.5" x2="60.96" y2="-55.88" width="0.1524" layer="91"/>
-<pinref part="GND_T" gate="1" pin="P"/>
 <pinref part="GND_B" gate="1" pin="P"/>
+<pinref part="GND_A" gate="1" pin="P"/>
 <wire x1="55.88" y1="-55.88" x2="60.96" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="60.96" y="-55.88"/>
 <wire x1="60.96" y1="-55.88" x2="66.04" y2="-55.88" width="0.1524" layer="91"/>
@@ -8376,7 +8381,7 @@ SW3 | 2-3 | 1-2</text>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="PWR_LED" gate="G$1" pin="C"/>
 <wire x1="193.04" y1="-5.08" x2="193.04" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8524,8 +8529,8 @@ SW3 | 2-3 | 1-2</text>
 <label x="154.94" y="-76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="VCC_T" gate="1" pin="P"/>
 <pinref part="VCC_B" gate="1" pin="P"/>
+<pinref part="VCC_A" gate="1" pin="P"/>
 <wire x1="73.66" y1="-78.74" x2="78.74" y2="-78.74" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
 <wire x1="78.74" y1="-78.74" x2="83.82" y2="-78.74" width="0.1524" layer="91"/>
@@ -8780,13 +8785,13 @@ SW3 | 2-3 | 1-2</text>
 <net name="N$18" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="SGNL_LED" gate="G$1" pin="A"/>
 <wire x1="167.64" y1="5.08" x2="167.64" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="SGNL_LED" gate="G$1" pin="C"/>
 <pinref part="SWLED1" gate="1" pin="2"/>
 <wire x1="167.64" y1="-5.08" x2="167.64" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
@@ -8815,7 +8820,7 @@ SW3 | 2-3 | 1-2</text>
 <net name="N$22" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="PWR_LED" gate="G$1" pin="A"/>
 <wire x1="193.04" y1="5.08" x2="193.04" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
