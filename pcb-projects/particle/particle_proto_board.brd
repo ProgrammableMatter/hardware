@@ -1923,14 +1923,14 @@ Covered vias can be set in Masks (Limit).
 <wire x1="0.635" y1="22.86" x2="0.635" y2="3.81" width="0.254" layer="1"/>
 <wire x1="0.635" y1="3.81" x2="1.905" y2="2.54" width="0.254" layer="1"/>
 <polygon width="0.254" layer="1" isolate="0.6096">
-<vertex x="4.445" y="34.29"/>
+<vertex x="4.7625" y="34.29"/>
 <vertex x="-0.635" y="34.29"/>
 <vertex x="-0.635" y="-1.27"/>
 <vertex x="0.47625" y="-1.27"/>
 <vertex x="0.47625" y="0.79375"/>
 <vertex x="3.81" y="0.79375"/>
 <vertex x="3.81" y="-1.27"/>
-<vertex x="4.445" y="-1.27"/>
+<vertex x="4.7625" y="-1.27"/>
 </polygon>
 <wire x1="10.1825" y1="21.59" x2="6.985" y2="18.415" width="0" layer="19" extent="1-1"/>
 </signal>
