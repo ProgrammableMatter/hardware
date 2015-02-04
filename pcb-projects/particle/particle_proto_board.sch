@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="6" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,17 +39,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -7685,187 +7685,6 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="jumper">
-<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="07">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-2.6162" y1="0" x2="2.6162" y2="0" width="0.6096" layer="21"/>
-<wire x1="3.81" y1="0" x2="2.54" y2="0" width="0.6096" layer="51"/>
-<wire x1="-3.81" y1="0" x2="-2.54" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-3.81" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="2" x="3.81" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="-2.54" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.7" y="0" size="0.02" layer="27">&gt;VALUE</text>
-</package>
-<package name="05">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-1.3462" y1="0" x2="1.3462" y2="0" width="0.6096" layer="21"/>
-<wire x1="2.54" y1="0" x2="1.397" y2="0" width="0.6096" layer="51"/>
-<wire x1="-2.54" y1="0" x2="-1.397" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="-2.54" y="0.889" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="2.5001" y="0" size="0.02" layer="27">&gt;VALUE</text>
-</package>
-<package name="10">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-3.8862" y1="0" x2="3.8862" y2="0" width="0.6096" layer="21"/>
-<wire x1="5.08" y1="0" x2="3.937" y2="0" width="0.6096" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-3.937" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-5.08" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="2" x="5.08" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="-3.175" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="5" y="0" size="0.02" layer="27">&gt;VALUE</text>
-</package>
-<package name="12">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-5.1562" y1="0" x2="5.1562" y2="0" width="0.6096" layer="21"/>
-<wire x1="6.35" y1="0" x2="5.207" y2="0" width="0.6096" layer="51"/>
-<wire x1="-6.35" y1="0" x2="-5.207" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-6.35" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="2" x="6.35" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="-3.175" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="6.3" y="0" size="0.02" layer="27">&gt;VALUE</text>
-</package>
-<package name="15">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-6.4262" y1="0" x2="6.4262" y2="0" width="0.6096" layer="21"/>
-<wire x1="7.62" y1="0" x2="6.477" y2="0" width="0.6096" layer="51"/>
-<wire x1="-7.62" y1="0" x2="-6.477" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-7.62" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="2" x="7.62" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="-5.715" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="7.5999" y="0" size="0.02" layer="27">&gt;VALUE</text>
-</package>
-<package name="20">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-8.9662" y1="0" x2="8.9662" y2="0" width="0.6096" layer="21"/>
-<wire x1="10.16" y1="0" x2="9.017" y2="0" width="0.6096" layer="51"/>
-<wire x1="-10.16" y1="0" x2="-9.017" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-10.16" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="2" x="10.16" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="-8.255" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="10.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
-</package>
-<package name="25">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-11.5062" y1="0" x2="11.5062" y2="0" width="0.6096" layer="21"/>
-<wire x1="12.7" y1="0" x2="11.557" y2="0" width="0.6096" layer="51"/>
-<wire x1="-12.7" y1="0" x2="-11.557" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-12.7" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="2" x="12.7" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="-10.795" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="12.5999" y="0" size="0.02" layer="27">&gt;VALUE</text>
-</package>
-<package name="30">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-14.0462" y1="0" x2="14.0462" y2="0" width="0.6096" layer="21"/>
-<wire x1="15.24" y1="0" x2="14.097" y2="0" width="0.6096" layer="51"/>
-<wire x1="-15.24" y1="0" x2="-14.097" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-15.24" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="2" x="15.24" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="-13.335" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="15.2001" y="0" size="0.02" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="J">
-<wire x1="-2.54" y1="0" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
-<circle x="-2.54" y="0" radius="0.254" width="0.4064" layer="94"/>
-<circle x="2.54" y="0" radius="0.254" width="0.4064" layer="94"/>
-<text x="-2.54" y="1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="J" prefix="J">
-<description>Bridge</description>
-<gates>
-<gate name="1" symbol="J" x="0" y="0"/>
-</gates>
-<devices>
-<device name="5MM" package="05">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="7MM" package="07">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="10MM" package="10">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="12MM" package="12">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="15MM" package="15">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="20MM" package="20">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="25MM" package="25">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="30MM" package="30">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="jumper-switches">
 <description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -8610,16 +8429,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="PWR_LED" library="led" deviceset="LED" device="SML1206" value="RED"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
-<part name="R11" library="jumper" deviceset="J" device="5MM" value=""/>
-<part name="P+5" library="supply1" deviceset="VCC" device=""/>
-<part name="P+7" library="supply1" deviceset="VCC" device=""/>
-<part name="R12" library="jumper" deviceset="J" device="15MM" value="J15MM"/>
 <part name="RESET" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD"/>
 <part name="J1" library="samtec-FTS-103-01-L-DV" deviceset="FTS-103-01-L-DV" device=""/>
 <part name="SW1" library="jumper-switches" deviceset="J2" device="X2MM" value="T/S-PI SW"/>
 <part name="SW3" library="jumper-switches" deviceset="J2" device="X2MM" value="T/S-PI SW"/>
 <part name="SW2" library="jumper-switches" deviceset="J2" device="X2MM" value="T/S-PI SW"/>
-<part name="R2" library="jumper" deviceset="J" device="5MM" value="J5MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -8709,16 +8523,11 @@ SW3 | 2-3 | 1-2</text>
 <instance part="GND8" gate="1" x="149.86" y="106.68"/>
 <instance part="PWR_LED" gate="G$1" x="149.86" y="129.54"/>
 <instance part="P+3" gate="VCC" x="149.86" y="149.86"/>
-<instance part="R11" gate="1" x="297.18" y="86.36" rot="MR270"/>
-<instance part="P+5" gate="VCC" x="99.06" y="10.16" rot="R90"/>
-<instance part="P+7" gate="VCC" x="114.3" y="10.16" rot="R270"/>
-<instance part="R12" gate="1" x="106.68" y="10.16" rot="MR0"/>
 <instance part="RESET" gate="G$1" x="22.86" y="114.3" rot="R90"/>
 <instance part="J1" gate="A" x="124.46" y="48.26" rot="R180"/>
 <instance part="SW1" gate="G$1" x="81.28" y="81.28" rot="R180"/>
 <instance part="SW3" gate="G$1" x="81.28" y="50.8" rot="R180"/>
 <instance part="SW2" gate="G$1" x="81.28" y="66.04" rot="R180"/>
-<instance part="R2" gate="1" x="241.3" y="147.32" rot="MR270"/>
 </instances>
 <busses>
 </busses>
@@ -8779,9 +8588,9 @@ SW3 | 2-3 | 1-2</text>
 <wire x1="223.52" y1="35.56" x2="226.06" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R11" gate="1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="297.18" y1="81.28" x2="297.18" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="A" pin="S"/>
+<wire x1="297.18" y1="93.98" x2="297.18" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
@@ -8935,14 +8744,6 @@ SW3 | 2-3 | 1-2</text>
 <wire x1="149.86" y1="147.32" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R12" gate="1" pin="1"/>
-<pinref part="P+7" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="R12" gate="1" pin="2"/>
-<pinref part="P+5" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
 <pinref part="J1" gate="A" pin="2"/>
 <wire x1="106.68" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
 <label x="104.14" y="48.26" size="1.016" layer="95" rot="R180" xref="yes"/>
@@ -9041,8 +8842,8 @@ SW3 | 2-3 | 1-2</text>
 <pinref part="IC2" gate="B" pin="D"/>
 <wire x1="210.82" y1="139.7" x2="210.82" y2="137.16" width="0.1524" layer="91"/>
 <junction x="210.82" y="137.16"/>
-<pinref part="R2" gate="1" pin="2"/>
-<wire x1="241.3" y1="137.16" x2="241.3" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="RXA" gate="1" pin="P"/>
+<wire x1="241.3" y1="160.02" x2="241.3" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="274.32" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -9135,13 +8936,6 @@ SW3 | 2-3 | 1-2</text>
 <wire x1="213.36" y1="35.56" x2="215.9" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="IC3" gate="A" pin="S"/>
-<pinref part="R11" gate="1" pin="1"/>
-<wire x1="297.18" y1="93.98" x2="297.18" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -9171,13 +8965,6 @@ SW3 | 2-3 | 1-2</text>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="RXB_LED" gate="G$1" pin="A"/>
 <wire x1="213.36" y1="53.34" x2="215.9" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="RXA" gate="1" pin="P"/>
-<wire x1="241.3" y1="160.02" x2="241.3" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R2" gate="1" pin="1"/>
 </segment>
 </net>
 </nets>
