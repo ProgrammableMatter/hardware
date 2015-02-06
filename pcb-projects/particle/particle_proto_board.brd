@@ -130,7 +130,7 @@
 <wire x1="34.2775" y1="0" x2="34.29" y2="27.94" width="0" layer="20"/>
 <wire x1="34.29" y1="27.94" x2="0.635" y2="27.94" width="0" layer="20"/>
 <wire x1="0.635" y1="27.94" x2="0.635" y2="0" width="0" layer="20"/>
-<text x="29.845" y="15.875" size="0.635" layer="1" font="vector" ratio="23" distance="8" rot="SR270">RUBIEN RUBIEN</text>
+<text x="29.845" y="15.875" size="0.635" layer="1" font="vector" ratio="23" distance="8" rot="SR270">RUBIEN RAOUL</text>
 <text x="6.50875" y="1.27" size="0.635" layer="1" font="vector" ratio="20" distance="8" rot="SR180">+5V</text>
 <text x="18.415" y="25.4" size="0.635" layer="1" font="vector" ratio="20" distance="8" rot="SR0">TX/RX B</text>
 <text x="25.4" y="1.905" size="0.635" layer="1" font="vector" ratio="20" distance="8" rot="SR180">TX/RX A</text>
@@ -138,7 +138,7 @@
 <wire x1="32.385" y1="25.4" x2="32.385" y2="1.905" width="1.016" layer="29"/>
 <wire x1="2.54" y1="25.4" x2="2.54" y2="1.905" width="1.016" layer="29"/>
 <text x="31.115" y="15.875" size="0.635" layer="29" font="vector" ratio="23" distance="8" rot="SR270">V0.9 - TU-GRAZ/ITI</text>
-<text x="29.845" y="15.875" size="0.635" layer="29" font="vector" ratio="23" distance="8" rot="SR270">RUBIEN RUBIEN</text>
+<text x="29.845" y="15.875" size="0.635" layer="29" font="vector" ratio="23" distance="8" rot="SR270">RUBIEN RAOUL</text>
 <text x="25.4" y="1.905" size="0.635" layer="29" font="vector" ratio="20" distance="8" rot="SR180">TX/RX A</text>
 <text x="6.50875" y="1.27" size="0.635" layer="29" font="vector" ratio="20" distance="0" rot="SR180">+5V</text>
 <text x="18.415" y="25.4" size="0.635" layer="29" font="vector" ratio="20" distance="8" rot="SR0">TX/RX B</text>
@@ -1926,6 +1926,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="3.81" y1="26.67" x2="2.54" y2="25.4" width="0.127" layer="1"/>
 <wire x1="2.8575" y1="14.2875" x2="2.54" y2="14.605" width="0.127" layer="1"/>
 <wire x1="2.8575" y1="13.335" x2="2.54" y2="13.6525" width="0.127" layer="1"/>
+<wire x1="5.563" y1="25.4" x2="6.35" y2="24.13" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="TX_B">
 <contactref element="IC3" pad="6"/>
