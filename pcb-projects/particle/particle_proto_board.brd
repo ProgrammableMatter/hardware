@@ -109,13 +109,13 @@
 <wire x1="36.1825" y1="-1.27" x2="36.195" y2="34.29" width="0.127" layer="20"/>
 <wire x1="36.195" y1="34.29" x2="-0.635" y2="34.29" width="0.127" layer="20"/>
 <wire x1="-0.635" y1="34.29" x2="-0.635" y2="-1.27" width="0.127" layer="20"/>
-<text x="34.76625" y="25.24125" size="0.6858" layer="1" font="vector" ratio="19" distance="8" rot="SR270">RUBIEN R. 1/2015 V.9 - TU-GRAZ/ITI</text>
+<text x="34.76625" y="25.24125" size="0.6858" layer="1" font="vector" ratio="19" distance="8" rot="SR270">RUBIEN R. 1/2015 V0.8 - TU-GRAZ/ITI</text>
 <text x="3.01625" y="0" size="0.6858" layer="1" font="vector" ratio="19" distance="8" rot="SR180">+5V</text>
 <text x="23.1775" y="29.5275" size="0.5842" layer="1" font="vector" ratio="23" distance="8" rot="SR0">TX/RX
   B</text>
 <text x="25.7175" y="3.4925" size="0.5842" layer="1" font="vector" ratio="23" distance="8" rot="SR180">TX/RX
   A</text>
-<text x="34.76625" y="25.24125" size="0.6858" layer="29" font="vector" ratio="19" distance="8" rot="SR270">RUBIEN R. 1/2015 V.9 - TU-GRAZ/ITI</text>
+<text x="34.76625" y="25.24125" size="0.6858" layer="29" font="vector" ratio="19" distance="8" rot="SR270">RUBIEN R. 1/2015 V0.8 - TU-GRAZ/ITI</text>
 </plain>
 <libraries>
 <library name="led">
