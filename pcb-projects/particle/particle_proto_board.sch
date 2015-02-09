@@ -7767,229 +7767,6 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="samtec-FTS-103-01-L-DV">
-<packages>
-<package name="SAMTEC_FTS-103-01-L-DV">
-<smd name="1" x="-1.27" y="-1.8796" dx="0.7112" dy="3.1242" layer="1"/>
-<smd name="2" x="-1.27" y="1.8796" dx="0.7112" dy="3.1242" layer="1"/>
-<smd name="3" x="0" y="-1.8796" dx="0.7112" dy="3.1242" layer="1"/>
-<smd name="4" x="0" y="1.8796" dx="0.7112" dy="3.1242" layer="1"/>
-<smd name="5" x="1.27" y="-1.8796" dx="0.7112" dy="3.1242" layer="1"/>
-<smd name="6" x="1.27" y="1.8796" dx="0.7112" dy="3.1242" layer="1"/>
-<wire x1="-1.27" y1="-3.8862" x2="-0.635" y2="-5.1562" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-5.1562" x2="-1.905" y2="-5.1562" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-5.1562" x2="-1.27" y2="-3.8862" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-0.127" x2="1.905" y2="0.127" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="0.127" x2="-1.905" y2="-0.127" width="0.1524" layer="21"/>
-<text x="-3.556" y="1.2192" size="1.27" layer="21" ratio="6" rot="SR0">2</text>
-<text x="-3.556" y="-2.4892" size="1.27" layer="21" ratio="6" rot="SR0">1</text>
-<text x="2.413" y="1.2192" size="1.27" layer="21" ratio="6" rot="SR0">6</text>
-<text x="2.413" y="-2.4892" size="1.27" layer="21" ratio="6" rot="SR0">5</text>
-<wire x1="-1.27" y1="-3.8862" x2="-0.635" y2="-5.1562" width="0.1524" layer="51"/>
-<wire x1="-0.635" y1="-5.1562" x2="-1.905" y2="-5.1562" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="-5.1562" x2="-1.27" y2="-3.8862" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="-1.7272" x2="1.905" y2="-1.7272" width="0.1524" layer="51"/>
-<wire x1="1.905" y1="-1.7272" x2="1.905" y2="1.7018" width="0.1524" layer="51"/>
-<wire x1="1.905" y1="1.7018" x2="-1.905" y2="1.7018" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="1.7018" x2="-1.905" y2="-1.7272" width="0.1524" layer="51"/>
-<text x="-3.556" y="1.2192" size="1.27" layer="51" ratio="6" rot="SR0">2</text>
-<text x="-3.556" y="-2.4892" size="1.27" layer="51" ratio="6" rot="SR0">1</text>
-<text x="2.413" y="1.2192" size="1.27" layer="51" ratio="6" rot="SR0">6</text>
-<text x="2.413" y="-2.4892" size="1.27" layer="51" ratio="6" rot="SR0">5</text>
-<text x="-4.4704" y="4.699" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.7912" y="-6.604" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="FTS-103-01-L-DV">
-<pin name="1" x="-17.78" y="0" length="middle" direction="pas"/>
-<pin name="3" x="-17.78" y="-2.54" length="middle" direction="pas"/>
-<pin name="5" x="-17.78" y="-5.08" length="middle" direction="pas"/>
-<pin name="2" x="17.78" y="0" length="middle" direction="pas" rot="R180"/>
-<pin name="4" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="6" x="17.78" y="-5.08" length="middle" direction="pas" rot="R180"/>
-<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="-10.16" x2="12.7" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="5.08" x2="-12.7" y2="5.08" width="0.4064" layer="94"/>
-<text x="-4.8514" y="7.0358" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.2578" y="-13.1318" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="FTS-103-01-L-DV" prefix="J">
-<gates>
-<gate name="A" symbol="FTS-103-01-L-DV" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SAMTEC_FTS-103-01-L-DV">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Through Hole Post Header" constant="no"/>
-<attribute name="MPN" value="FTS-103-01-L-DV" constant="no"/>
-<attribute name="OC_FARNELL" value="1928409" constant="no"/>
-<attribute name="OC_NEWARK" value="11P4645" constant="no"/>
-<attribute name="PACKAGE" value="6 WAY header" constant="no"/>
-<attribute name="SUPPLIER" value="SAMTEC" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="ck-ksc-switches">
-<packages>
-<package name="KSC321GLFS">
-<description>http://at.rs-online.com/web/p/tastschalter/7931633/</description>
-<smd name="1" x="-4.45" y="2" dx="1" dy="3.1" layer="1" rot="R90"/>
-<smd name="4" x="4.45" y="2" dx="1" dy="3.1" layer="1" rot="R90"/>
-<smd name="3" x="4.45" y="-2" dx="1" dy="3.1" layer="1" rot="R90"/>
-<smd name="2" x="-4.45" y="-2" dx="1" dy="3.1" layer="1" rot="R90"/>
-<wire x1="-4" y1="2" x2="0" y2="2" width="0.127" layer="51"/>
-<wire x1="0" y1="2" x2="4" y2="2" width="0.127" layer="51"/>
-<wire x1="-4" y1="-2" x2="0" y2="-2" width="0.127" layer="51"/>
-<wire x1="0" y1="-2" x2="4" y2="-2" width="0.127" layer="51"/>
-<wire x1="0" y1="0" x2="0" y2="2" width="0.127" layer="51"/>
-<wire x1="1" y1="0" x2="0" y2="-1" width="0.127" layer="51"/>
-<wire x1="0" y1="-1" x2="0" y2="-2" width="0.127" layer="51"/>
-</package>
-<package name="EVQP6LB55">
-<description>http://at.rs-online.com/web/p/tastschalter/7561697/</description>
-<smd name="1" x="-2.1" y="1.45" dx="0.5" dy="0.7" layer="1"/>
-<smd name="2" x="-2.1" y="-1.45" dx="0.5" dy="0.7" layer="1"/>
-<smd name="3" x="2.1" y="-1.45" dx="0.5" dy="0.7" layer="1"/>
-<smd name="4" x="2.1" y="1.45" dx="0.5" dy="0.7" layer="1"/>
-<wire x1="-1.905" y1="1.27" x2="0" y2="1.27" width="0.127" layer="51"/>
-<wire x1="0" y1="1.27" x2="1.905" y2="1.27" width="0.127" layer="51"/>
-<wire x1="-1.905" y1="-1.27" x2="0" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="0" y1="-1.27" x2="1.905" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="0" y1="1.27" x2="0" y2="0.3175" width="0.127" layer="51"/>
-<wire x1="0" y1="-1.27" x2="0" y2="-0.3175" width="0.127" layer="51"/>
-<wire x1="0" y1="-0.3175" x2="0.635" y2="0.3175" width="0.127" layer="51"/>
-<wire x1="-0.4" y1="-0.75" x2="0.4" y2="-0.75" width="0.05" layer="39"/>
-<wire x1="0.4" y1="-0.75" x2="0.4" y2="-1.3" width="0.05" layer="39"/>
-<wire x1="0.4" y1="-1.3" x2="0.8" y2="-1.3" width="0.05" layer="39"/>
-<wire x1="0.8" y1="-1.3" x2="0.8" y2="-1.9" width="0.05" layer="39"/>
-<wire x1="-0.4" y1="-0.75" x2="-0.4" y2="-1.3" width="0.05" layer="39"/>
-<wire x1="-0.8" y1="-1.3" x2="-0.4" y2="-1.3" width="0.05" layer="39"/>
-<wire x1="-0.8" y1="-1.3" x2="-0.8" y2="-1.9" width="0.05" layer="39"/>
-<wire x1="-0.8" y1="-1.9" x2="0.8" y2="-1.9" width="0.05" layer="39"/>
-<wire x1="0.4" y1="0.75" x2="-0.4" y2="0.75" width="0.05" layer="39"/>
-<wire x1="-0.4" y1="0.75" x2="-0.4" y2="1.3" width="0.05" layer="39"/>
-<wire x1="-0.4" y1="1.3" x2="-0.8" y2="1.3" width="0.05" layer="39"/>
-<wire x1="-0.8" y1="1.3" x2="-0.8" y2="1.9" width="0.05" layer="39"/>
-<wire x1="0.4" y1="0.75" x2="0.4" y2="1.3" width="0.05" layer="39"/>
-<wire x1="0.8" y1="1.3" x2="0.4" y2="1.3" width="0.05" layer="39"/>
-<wire x1="0.8" y1="1.3" x2="0.8" y2="1.9" width="0.05" layer="39"/>
-<wire x1="0.8" y1="1.9" x2="-0.8" y2="1.9" width="0.05" layer="39"/>
-<hole x="1.2" y="1.5" drill="0.5"/>
-<hole x="-1.2" y="1.5" drill="0.5"/>
-<hole x="0" y="-1.5" drill="0.5"/>
-<hole x="-0.8" y="-1.4" drill="0.5"/>
-<hole x="0.8" y="-1.4" drill="0.5"/>
-<wire x1="-2.05" y1="2.05" x2="-2.05" y2="-2.05" width="0.127" layer="21"/>
-<wire x1="2.05" y1="2.05" x2="2.05" y2="-2.05" width="0.127" layer="21"/>
-<wire x1="-2.05" y1="-2.05" x2="2.05" y2="-2.05" width="0.127" layer="21"/>
-<wire x1="-2.05" y1="2.05" x2="2.05" y2="2.05" width="0.127" layer="21"/>
-</package>
-<package name="KSC351JLFS">
-<description>http://at.rs-online.com/web/p/tastschalter/7931651/
-http://at.rs-online.com/web/p/tastschalter/7931639/</description>
-<smd name="1" x="-2.9" y="2" dx="1" dy="2.8" layer="1" rot="R90"/>
-<smd name="2" x="-2.9" y="-2" dx="1" dy="2.8" layer="1" rot="R90"/>
-<smd name="3" x="2.9" y="-2" dx="1" dy="2.8" layer="1" rot="R90"/>
-<smd name="4" x="2.9" y="2" dx="1" dy="2.8" layer="1" rot="R90"/>
-<wire x1="-2.54" y1="2.032" x2="0" y2="2.032" width="0.127" layer="51"/>
-<wire x1="0" y1="2.032" x2="2.54" y2="2.032" width="0.127" layer="51"/>
-<wire x1="-2.54" y1="-2.032" x2="0" y2="-2.032" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.032" x2="2.54" y2="-2.032" width="0.127" layer="51"/>
-<wire x1="0" y1="2.032" x2="0" y2="0.508" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.032" x2="0" y2="-0.508" width="0.127" layer="51"/>
-<wire x1="0" y1="-0.508" x2="1.016" y2="0.508" width="0.127" layer="51"/>
-<wire x1="-3.1" y1="3.1" x2="-3.1" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3.1" y1="2.5" x2="-3.1" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-3.1" y1="1.5" x2="-3.1" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-3.1" y1="-1.5" x2="-3.1" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-3.1" y1="-2.5" x2="-3.1" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="-3.1" y1="-3.1" x2="3.1" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="-3.1" y1="3.1" x2="3.1" y2="3.1" width="0.127" layer="21"/>
-<wire x1="3.1" y1="-3.1" x2="3.1" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="3.1" y1="-2.5" x2="3.1" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="3.1" y1="-1.5" x2="3.1" y2="1.5" width="0.127" layer="21"/>
-<wire x1="3.1" y1="1.5" x2="3.1" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3.1" y1="2.5" x2="3.1" y2="3.1" width="0.127" layer="21"/>
-<wire x1="3.4" y1="2.5" x2="3.4" y2="1.5" width="0.127" layer="21"/>
-<wire x1="3.4" y1="1.5" x2="3.1" y2="1.5" width="0.127" layer="21"/>
-<wire x1="3.1" y1="2.5" x2="3.4" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3.4" y1="2.5" x2="-3.4" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-3.4" y1="-1.5" x2="-3.4" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="3.4" y1="-1.5" x2="3.4" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-3.4" y1="2.5" x2="-3.1" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3.4" y1="1.5" x2="-3.1" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-3.4" y1="-1.5" x2="-3.1" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="3.4" y1="-1.5" x2="3.1" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="3.4" y1="-2.5" x2="3.1" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-3.4" y1="-2.5" x2="-3.1" y2="-2.5" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SWITCH-MOMENTARY-2">
-<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SWITCH-MOMENTARY-2" prefix="S">
-<gates>
-<gate name="G$1" symbol="SWITCH-MOMENTARY-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="KSC321GLFS">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="GULLWING"/>
-</technologies>
-</device>
-<device name="JBEND" package="KSC351JLFS">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PANASONIC-EVQP6LB55" package="EVQP6LB55">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rs-switches">
 <packages>
 <package name="KSC351JLFS">
@@ -8158,6 +7935,76 @@ http://at.rs-online.com/web/p/tastschalter/7931639/</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="FTSH-103-XX-XXX-DH">
+<packages>
+<package name="FTSH-103-XX-XXX-DH">
+<description>DOUBLE HORIZONTAL TERMINAL STRIP, 8PINS.
+MANUFACTURER: SAMTEC</description>
+<wire x1="-1.27" y1="1.2573" x2="-0.635" y2="1.2573" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="1.2573" x2="0.635" y2="1.2573" width="0.127" layer="51"/>
+<wire x1="0.635" y1="1.2573" x2="1.905" y2="1.2573" width="0.127" layer="51"/>
+<wire x1="1.905" y1="1.2573" x2="2.54" y2="1.2573" width="0.127" layer="51"/>
+<wire x1="2.54" y1="1.2573" x2="2.54" y2="-1.2573" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-1.2573" x2="-1.27" y2="-1.2573" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="-1.2573" x2="-1.27" y2="1.2573" width="0.127" layer="51"/>
+<wire x1="1.905" y1="1.2573" x2="1.905" y2="4.3053" width="0.127" layer="51"/>
+<wire x1="0.635" y1="1.2573" x2="0.635" y2="4.3053" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="1.2573" x2="-0.635" y2="4.3053" width="0.127" layer="51"/>
+<wire x1="3.048" y1="4.699" x2="3.048" y2="-7.239" width="0.127" layer="21"/>
+<wire x1="3.048" y1="-7.239" x2="-1.778" y2="-7.239" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="-7.239" x2="-1.778" y2="4.699" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="4.699" x2="3.048" y2="4.699" width="0.127" layer="21"/>
+<smd name="1" x="1.905" y="-2.794" dx="0.762" dy="2.032" layer="1"/>
+<smd name="2" x="1.905" y="-5.842" dx="0.762" dy="2.032" layer="1"/>
+<smd name="3" x="0.635" y="-2.794" dx="0.762" dy="2.032" layer="1"/>
+<smd name="4" x="0.635" y="-5.842" dx="0.762" dy="2.032" layer="1"/>
+<smd name="5" x="-0.635" y="-2.794" dx="0.762" dy="2.032" layer="1"/>
+<smd name="6" x="-0.635" y="-5.842" dx="0.762" dy="2.032" layer="1"/>
+<text x="-1.651" y="-8.382" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.778" y="5.08" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="FTSH-103-XX-XXX-DH">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="5.08" y="3.302" size="1.27" layer="95">&gt;NAME</text>
+<text x="5.08" y="-9.652" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="3" x="0" y="-2.54" length="middle"/>
+<pin name="4" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="5" x="0" y="-5.08" length="middle"/>
+<pin name="6" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<wire x1="5.08" y1="-7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FTSH-103-XX-XXX-DH" prefix="J">
+<description>DOUBLE HORIZONTAL TERMINAL STRIP, 8PINS.
+MANUFACTURER: SAMTEC</description>
+<gates>
+<gate name="G$1" symbol="FTSH-103-XX-XXX-DH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FTSH-103-XX-XXX-DH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8215,13 +8062,11 @@ http://at.rs-online.com/web/p/tastschalter/7931639/</description>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="PWR_LED" library="led" deviceset="LED" device="SML1206" value="RED"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
-<part name="J1" library="samtec-FTS-103-01-L-DV" deviceset="FTS-103-01-L-DV" device=""/>
 <part name="SW1" library="jumper-switches" deviceset="J2" device="X2MM" value="T/S-PI SW"/>
 <part name="SW3" library="jumper-switches" deviceset="J2" device="X2MM" value="T/S-PI SW"/>
 <part name="SW2" library="jumper-switches" deviceset="J2" device="X2MM" value="T/S-PI SW"/>
-<part name="S1" library="ck-ksc-switches" deviceset="SWITCH-MOMENTARY-2" device="PANASONIC-EVQP6LB55"/>
 <part name="S2" library="rs-switches" deviceset="SWITCH-MOMENTARY-2" device="JBEND"/>
-<part name="S3" library="rs-switches" deviceset="SWITCH-MOMENTARY-2" device="" technology="GULLWING"/>
+<part name="J2" library="FTSH-103-XX-XXX-DH" deviceset="FTSH-103-XX-XXX-DH" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8306,13 +8151,11 @@ SW3 | 1-2 | 2-3</text>
 <instance part="GND8" gate="1" x="149.86" y="106.68"/>
 <instance part="PWR_LED" gate="G$1" x="149.86" y="129.54"/>
 <instance part="P+3" gate="VCC" x="149.86" y="149.86"/>
-<instance part="J1" gate="A" x="124.46" y="48.26" rot="R180"/>
 <instance part="SW1" gate="G$1" x="81.28" y="76.2" rot="R180"/>
 <instance part="SW3" gate="G$1" x="81.28" y="45.72" rot="R180"/>
 <instance part="SW2" gate="G$1" x="81.28" y="60.96" rot="R180"/>
-<instance part="S1" gate="G$1" x="22.86" y="114.3" rot="R90"/>
-<instance part="S2" gate="G$1" x="30.48" y="114.3" rot="R90"/>
-<instance part="S3" gate="G$1" x="40.64" y="114.3" rot="R90"/>
+<instance part="S2" gate="G$1" x="22.86" y="114.3" rot="R90"/>
+<instance part="J2" gate="G$1" x="129.54" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -8334,7 +8177,7 @@ SW3 | 1-2 | 2-3</text>
 <pinref part="IC1" gate="B" pin="GND"/>
 <wire x1="50.8" y1="137.16" x2="58.42" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="109.22" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="1"/>
+<pinref part="S2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="86.36" y1="50.8" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
@@ -8383,9 +8226,9 @@ SW3 | 1-2 | 2-3</text>
 <wire x1="124.46" y1="109.22" x2="124.46" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="A" pin="6"/>
-<wire x1="106.68" y1="53.34" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
-<label x="104.14" y="53.34" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="55.88" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
+<label x="152.4" y="55.88" size="1.016" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="RXA_LED" gate="G$1" pin="C"/>
@@ -8424,12 +8267,12 @@ SW3 | 1-2 | 2-3</text>
 <junction x="22.86" y="144.78"/>
 <pinref part="IC1" gate="B" pin="PB3"/>
 <wire x1="22.86" y1="144.78" x2="58.42" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="2"/>
+<pinref part="S2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="J1" gate="A" pin="5"/>
-<wire x1="142.24" y1="53.34" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
-<label x="147.32" y="53.34" size="1.016" layer="95" xref="yes"/>
+<wire x1="129.54" y1="55.88" x2="127" y2="55.88" width="0.1524" layer="91"/>
+<label x="127" y="55.88" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="RX_B" class="1">
@@ -8529,9 +8372,9 @@ SW3 | 1-2 | 2-3</text>
 <wire x1="149.86" y1="147.32" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="A" pin="2"/>
-<wire x1="106.68" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
-<label x="104.14" y="48.26" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="60.96" x2="152.4" y2="60.96" width="0.1524" layer="91"/>
+<label x="152.4" y="60.96" size="1.016" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="TX_B" class="0">
@@ -8673,22 +8516,18 @@ SW3 | 1-2 | 2-3</text>
 </net>
 <net name="N$20" class="0">
 <segment>
-<wire x1="83.82" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="58.42" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="63.5" x2="154.94" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="J1" gate="A" pin="3"/>
-<wire x1="154.94" y1="50.8" x2="142.24" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SW2" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<wire x1="160.02" y1="73.66" x2="160.02" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="J1" gate="A" pin="1"/>
-<wire x1="160.02" y1="48.26" x2="142.24" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="73.66" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="73.66" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="60.96" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="73.66" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="SW1" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -8729,11 +8568,11 @@ SW3 | 1-2 | 2-3</text>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="J1" gate="A" pin="4"/>
-<wire x1="83.82" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="43.18" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="SW3" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="43.18" x2="162.56" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="43.18" x2="162.56" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="4"/>
+<wire x1="162.56" y1="58.42" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
