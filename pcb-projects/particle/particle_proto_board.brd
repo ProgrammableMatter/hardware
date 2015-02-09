@@ -2031,7 +2031,8 @@ Covered vias can be set in Masks (Limit).
 <wire x1="20.168" y1="11.43" x2="22.708" y2="8.89" width="0.254" layer="1"/>
 <wire x1="22.708" y1="8.89" x2="24.13" y2="8.89" width="0.254" layer="1"/>
 <wire x1="24.13" y1="8.89" x2="24.13" y2="2.54" width="0.254" layer="16"/>
-<wire x1="22.86" y1="0.635" x2="24.13" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="22.86" y1="0.635" x2="24.13" y2="1.905" width="0.254" layer="1"/>
+<wire x1="24.13" y1="1.905" x2="24.13" y2="2.54" width="0.254" layer="1"/>
 </signal>
 <signal name="SPI_MISO">
 <contactref element="IC1" pad="14"/>
