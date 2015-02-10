@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24,7 +24,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="6" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="6" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -32,8 +32,8 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
@@ -144,6 +144,7 @@
 <text x="17.78" y="27.94" size="0.635" layer="29" font="vector" ratio="20" distance="8" rot="SR0">TX/RX B</text>
 <wire x1="1.27" y1="27.94" x2="1.27" y2="2.54" width="1.016" layer="29"/>
 <wire x1="32.385" y1="27.94" x2="32.385" y2="2.54" width="1.016" layer="29"/>
+<rectangle x1="4.45020625" y1="11.69485625" x2="5.05455625" y2="12.275675" layer="29"/>
 </plain>
 <libraries>
 <library name="led">
@@ -1557,9 +1558,6 @@ Covered vias can be set in Masks (Limit).
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="6.25mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="2"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="*"/>
 <param name="PrefDir.2" value="0"/>
@@ -1698,8 +1696,8 @@ Covered vias can be set in Masks (Limit).
 <contactref element="TXB_LED" pad="C"/>
 <contactref element="PWR_LED" pad="C"/>
 <polygon width="0.127" layer="1" isolate="0.6096">
-<vertex x="12.7" y="31.115"/>
-<vertex x="12.7" y="-0.635"/>
+<vertex x="3.40245" y="31.163734375"/>
+<vertex x="3.40245" y="-0.586265625"/>
 <vertex x="34.29" y="-0.635"/>
 <vertex x="34.29" y="31.115"/>
 </polygon>
@@ -1739,8 +1737,6 @@ Covered vias can be set in Masks (Limit).
 <via x="26.9875" y="18.7325" extent="1-16" drill="0.8" shape="square"/>
 <wire x1="29.21" y1="21.745" x2="29.21" y2="20.955" width="0.254" layer="1"/>
 <wire x1="29.21" y1="20.955" x2="26.9875" y2="18.7325" width="0.254" layer="1"/>
-<wire x1="22.86" y1="19.685" x2="23.8125" y2="18.7325" width="0.254" layer="16"/>
-<wire x1="23.8125" y1="18.7325" x2="26.9875" y2="18.7325" width="0.254" layer="16"/>
 <wire x1="16.51" y1="23.6728" x2="16.51" y2="24.4475" width="0.127" layer="1"/>
 <wire x1="16.51" y1="24.4475" x2="15.5575" y2="25.4" width="0.127" layer="1"/>
 <wire x1="15.5575" y1="25.4" x2="13.97" y2="25.4" width="0.127" layer="1"/>
@@ -1768,8 +1764,8 @@ Covered vias can be set in Masks (Limit).
 <wire x1="13.335" y1="9.8425" x2="13.0175" y2="9.8425" width="0.127" layer="1"/>
 <wire x1="13.0175" y1="9.8425" x2="11.43" y2="8.255" width="0.127" layer="1"/>
 <wire x1="13.335" y1="9.8425" x2="13.97" y2="10.4775" width="0.127" layer="1"/>
-<wire x1="8.89" y1="8.255" x2="8.935" y2="8.255" width="0" layer="19" extent="1-1"/>
-<wire x1="17.01" y1="16.725" x2="13.97" y2="18.7325" width="0" layer="19" extent="1-1"/>
+<wire x1="26.035" y1="17.78" x2="22.86" y2="19.685" width="0" layer="19" extent="1-1"/>
+<wire x1="13.97" y1="18.7325" x2="17.01" y2="16.725" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWR/TX_B">
 <contactref element="IC3" pad="2"/>
@@ -1872,10 +1868,10 @@ Covered vias can be set in Masks (Limit).
 <contactref element="R1" pad="2"/>
 <contactref element="R3" pad="1"/>
 <polygon width="0.127" layer="1" isolate="0.6096">
-<vertex x="11.43" y="31.115"/>
+<vertex x="2.619234375" y="31.01753125"/>
 <vertex x="-0.635" y="31.115"/>
 <vertex x="-0.635" y="-0.635"/>
-<vertex x="11.43" y="-0.635"/>
+<vertex x="2.619234375" y="-0.73246875"/>
 </polygon>
 <wire x1="23.71" y1="21.725" x2="24.48" y2="20.955" width="0.254" layer="1"/>
 <wire x1="26.67" y1="26.19375" x2="20.79625" y2="26.19375" width="0.254" layer="1"/>
@@ -1890,8 +1886,6 @@ Covered vias can be set in Masks (Limit).
 <via x="20.32" y="26.67" extent="1-16" drill="0.8" shape="square"/>
 <wire x1="1.905" y1="27.94" x2="4.928" y2="27.94" width="0.127" layer="1"/>
 <via x="4.7625" y="25.7175" extent="1-16" drill="0.8" shape="square"/>
-<wire x1="20.32" y1="26.67" x2="5.715" y2="26.67" width="0.254" layer="16"/>
-<wire x1="5.715" y1="26.67" x2="4.7625" y2="25.7175" width="0.254" layer="16"/>
 <wire x1="10.665" y1="27.94" x2="10.4775" y2="27.94" width="0.127" layer="1"/>
 <wire x1="10.4775" y1="27.94" x2="8.89" y2="29.5275" width="0.127" layer="1"/>
 <wire x1="8.89" y1="29.5275" x2="3.4925" y2="29.5275" width="0.127" layer="1"/>
@@ -1919,6 +1913,8 @@ Covered vias can be set in Masks (Limit).
 <wire x1="27.46375" y1="25.4" x2="26.67" y2="26.19375" width="0.254" layer="1"/>
 <wire x1="1.905" y1="2.54" x2="3.175" y2="1.27" width="0.254" layer="1"/>
 <wire x1="3.175" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="1"/>
+<wire x1="16.06" y1="24.2625" x2="20.32" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="3.9755" y1="5.08" x2="4.1275" y2="5.715" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX_B">
 <contactref element="IC3" pad="6"/>
@@ -2016,9 +2012,9 @@ Covered vias can be set in Masks (Limit).
 <wire x1="17.145" y1="3.175" x2="22.225" y2="3.175" width="0.254" layer="1"/>
 <wire x1="19.533" y1="13.97" x2="22.073" y2="11.43" width="0.254" layer="1"/>
 <wire x1="22.073" y1="11.43" x2="23.495" y2="11.43" width="0.254" layer="1"/>
-<wire x1="23.495" y1="11.43" x2="23.495" y2="5.08" width="0.254" layer="16"/>
 <wire x1="22.225" y1="3.175" x2="23.495" y2="4.445" width="0.254" layer="1"/>
 <wire x1="23.495" y1="4.445" x2="23.495" y2="5.08" width="0.254" layer="1"/>
+<wire x1="23.495" y1="5.08" x2="23.495" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI_MISO">
 <contactref element="IC1" pad="14"/>
