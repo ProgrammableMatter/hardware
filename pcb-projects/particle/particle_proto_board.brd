@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.003125" unitdist="mic" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.00625" altunitdist="inch" altunit="inch"/>
+<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.00625" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1558,6 +1558,9 @@ Covered vias can be set in Masks (Limit).
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="6.25mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="*"/>
 <param name="PrefDir.2" value="0"/>
@@ -1650,19 +1653,19 @@ Covered vias can be set in Masks (Limit).
 </autorouter>
 <elements>
 <element name="IC1" library="tiny_particles_MCU" package="QFN45P300X300X85-21N" value="ATTINY20-MMH" x="16.51" y="22.225" rot="R180"/>
-<element name="R2" library="rcl" package="R1206" value="1k" x="20.0025" y="17.78" rot="R270"/>
+<element name="R2" library="rcl" package="R1206" value="150" x="20.0025" y="17.78" rot="R270"/>
 <element name="SGNL_LED" library="led" package="SML1206" value="GRN" x="24.4475" y="16.51" rot="R180"/>
 <element name="IC3" library="diodes" package="SOT563" value="DMC2400V" x="22.86" y="22.225" rot="R270"/>
-<element name="R5" library="rcl" package="R1206" value="1k" x="24.13" y="24.765"/>
+<element name="R5" library="rcl" package="R1206" value="150" x="24.13" y="24.765"/>
 <element name="TXB_LED" library="led" package="SML1206" value="RED" x="15.875" y="26.035"/>
 <element name="RXB_LED" library="led" package="SML1206" value="GRN" x="29.21" y="23.495" rot="R90"/>
-<element name="R4" library="rcl" package="R1206" value="1k" x="24.765" y="27.94" rot="R180"/>
+<element name="R4" library="rcl" package="R1206" value="150" x="24.765" y="27.94" rot="R180"/>
 <element name="IC2" library="diodes" package="SOT563" value="DMC2400V" x="16.51" y="15.875" rot="R180"/>
-<element name="R7" library="rcl" package="R1206" value="1k" x="26.67" y="10.16" rot="R90"/>
+<element name="R7" library="rcl" package="R1206" value="150" x="26.67" y="10.16" rot="R90"/>
 <element name="TXA_LED" library="led" package="SML1206" value="RED" x="29.21" y="6.985" rot="R270"/>
 <element name="RXA_LED" library="led" package="SML1206" value="GRN" x="26.3525" y="13.97" rot="R180"/>
-<element name="R6" library="rcl" package="R1206" value="1k" x="20.955" y="13.97" rot="R180"/>
-<element name="R1" library="rcl" package="R1206" value="1k" x="5.3975" y="5.08" rot="R180"/>
+<element name="R6" library="rcl" package="R1206" value="150" x="20.955" y="13.97" rot="R180"/>
+<element name="R1" library="rcl" package="R1206" value="150" x="5.3975" y="5.08" rot="R180"/>
 <element name="C1" library="rcl" package="C1206" value="100n" x="12.065" y="27.94"/>
 <element name="TP1" library="wirepad" package="1,6/0,9" value="TP1" x="9.525" y="4.1275" rot="R180"/>
 <element name="TP3" library="wirepad" package="1,6/0,9" value="TP3" x="16.51" y="18.415"/>
@@ -1677,7 +1680,7 @@ Covered vias can be set in Masks (Limit).
 <element name="TXB" library="wirepad" package="1,6/0,9" value="TXB" x="16.51" y="27.94" rot="R90"/>
 <element name="RXA" library="wirepad" package="1,6/0,9" value="RXA" x="16.51" y="2.54"/>
 <element name="TXA" library="wirepad" package="1,6/0,9" value="TXA" x="28.575" y="2.54"/>
-<element name="R3" library="rcl" package="R1206" value="1k" x="6.35" y="27.94"/>
+<element name="R3" library="rcl" package="R1206" value="150" x="6.35" y="27.94"/>
 <element name="PWR_LED" library="led" package="SML1206" value="RED" x="9.525" y="26.035" rot="R180"/>
 <element name="SW1" library="jumper-switches" package="04C" value="T/S-PI SW" x="8.255" y="16.51" rot="R90"/>
 <element name="SW3" library="jumper-switches" package="04C" value="T/S-PI SW" x="4.445" y="16.51" rot="R90"/>
@@ -1696,8 +1699,8 @@ Covered vias can be set in Masks (Limit).
 <contactref element="TXB_LED" pad="C"/>
 <contactref element="PWR_LED" pad="C"/>
 <polygon width="0.127" layer="1" isolate="0.6096">
-<vertex x="3.40245" y="31.163734375"/>
-<vertex x="3.40245" y="-0.586265625"/>
+<vertex x="3.4925" y="31.115"/>
+<vertex x="3.4925" y="-0.635"/>
 <vertex x="34.29" y="-0.635"/>
 <vertex x="34.29" y="31.115"/>
 </polygon>
@@ -1868,10 +1871,10 @@ Covered vias can be set in Masks (Limit).
 <contactref element="R1" pad="2"/>
 <contactref element="R3" pad="1"/>
 <polygon width="0.127" layer="1" isolate="0.6096">
-<vertex x="2.619234375" y="31.01753125"/>
+<vertex x="2.54" y="31.115"/>
 <vertex x="-0.635" y="31.115"/>
 <vertex x="-0.635" y="-0.635"/>
-<vertex x="2.619234375" y="-0.73246875"/>
+<vertex x="2.54" y="-0.635"/>
 </polygon>
 <wire x1="23.71" y1="21.725" x2="24.48" y2="20.955" width="0.254" layer="1"/>
 <wire x1="26.67" y1="26.19375" x2="20.79625" y2="26.19375" width="0.254" layer="1"/>
