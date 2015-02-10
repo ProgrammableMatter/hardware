@@ -8085,9 +8085,9 @@ http://at.rs-online.com/web/p/tastschalter/7931639/</description>
 <text x="7.62" y="83.82" size="2.54" layer="108" font="vector">POWER SUPPLY</text>
 <text x="132.08" y="15.24" size="2.54" layer="108" font="vector">    | TPI | SPI
 --------------
-SW1 | 1-2 | 2-3
-SW2 | 1-2 | 2-3
-SW3 | 1-2 | 2-3</text>
+SW1 | 1-2 | 1-3
+SW2 | 1-2 | 1-3
+SW3 |  -  | 1-2</text>
 <wire x1="170.18" y1="66.04" x2="330.2" y2="66.04" width="0.3048" layer="108"/>
 <wire x1="170.18" y1="17.78" x2="330.2" y2="17.78" width="0.3048" layer="108"/>
 <wire x1="170.18" y1="17.78" x2="170.18" y2="66.04" width="0.3048" layer="108"/>
