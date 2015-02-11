@@ -8012,7 +8012,7 @@ http://at.rs-online.com/web/p/tastschalter/7931639/</description>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="150"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="SGNL_LED" library="led" deviceset="LED" device="SML1206" value="GRN"/>
+<part name="SGNL_LED" library="led" deviceset="LED" device="SML1206" value="ORNG"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="IC3" library="diodes" deviceset="DMC2400V" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>

@@ -14,7 +14,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -131,7 +131,7 @@
 <wire x1="33.655" y1="30.48" x2="0" y2="30.48" width="0" layer="20"/>
 <wire x1="0" y1="30.48" x2="0" y2="0" width="0" layer="20"/>
 <text x="29.21" y="18.415" size="0.635" layer="1" font="vector" ratio="23" distance="8" rot="SR270">RUBIEN RAOUL</text>
-<text x="5.87375" y="3.175" size="0.635" layer="1" font="vector" ratio="20" distance="8" rot="SR180">+5V</text>
+<text x="5.23875" y="2.54" size="0.635" layer="1" font="vector" ratio="20" distance="8" rot="SR180">+5V</text>
 <text x="17.78" y="27.94" size="0.635" layer="1" font="vector" ratio="20" distance="8" rot="SR0">TX/RX B</text>
 <text x="24.765" y="2.54" size="0.635" layer="1" font="vector" ratio="20" distance="8" rot="SR180">TX/RX A</text>
 <text x="30.48" y="18.415" size="0.635" layer="1" font="vector" ratio="23" distance="8" rot="SR270">V0.9 - TU-GRAZ/ITI</text>
@@ -140,7 +140,7 @@
 <text x="30.48" y="18.415" size="0.635" layer="29" font="vector" ratio="23" distance="8" rot="SR270">V0.9 - TU-GRAZ/ITI</text>
 <text x="29.21" y="18.415" size="0.635" layer="29" font="vector" ratio="23" distance="8" rot="SR270">RUBIEN RAOUL</text>
 <text x="24.765" y="2.54" size="0.635" layer="29" font="vector" ratio="20" distance="8" rot="SR180">TX/RX A</text>
-<text x="5.87375" y="3.175" size="0.635" layer="29" font="vector" ratio="20" distance="0" rot="SR180">+5V</text>
+<text x="5.23875" y="2.54" size="0.635" layer="29" font="vector" ratio="20" distance="0" rot="SR180">+5V</text>
 <text x="17.78" y="27.94" size="0.635" layer="29" font="vector" ratio="20" distance="8" rot="SR0">TX/RX B</text>
 <wire x1="1.27" y1="27.94" x2="1.27" y2="2.54" width="1.016" layer="29"/>
 <wire x1="32.385" y1="27.94" x2="32.385" y2="2.54" width="1.016" layer="29"/>
@@ -1654,7 +1654,7 @@ Covered vias can be set in Masks (Limit).
 <elements>
 <element name="IC1" library="tiny_particles_MCU" package="QFN45P300X300X85-21N" value="ATTINY20-MMH" x="16.51" y="22.225" rot="R180"/>
 <element name="R2" library="rcl" package="R1206" value="150" x="20.0025" y="17.78" rot="R270"/>
-<element name="SGNL_LED" library="led" package="SML1206" value="GRN" x="24.4475" y="16.51" rot="R180"/>
+<element name="SGNL_LED" library="led" package="SML1206" value="ORNG" x="24.4475" y="16.51" rot="R180"/>
 <element name="IC3" library="diodes" package="SOT563" value="DMC2400V" x="22.86" y="22.225" rot="R270"/>
 <element name="R5" library="rcl" package="R1206" value="150" x="24.13" y="24.765"/>
 <element name="TXB_LED" library="led" package="SML1206" value="RED" x="15.875" y="26.035"/>
@@ -1667,7 +1667,7 @@ Covered vias can be set in Masks (Limit).
 <element name="R6" library="rcl" package="R1206" value="150" x="20.955" y="13.97" rot="R180"/>
 <element name="R1" library="rcl" package="R1206" value="150" x="5.3975" y="5.08" rot="R180"/>
 <element name="C1" library="rcl" package="C1206" value="100n" x="12.065" y="27.94"/>
-<element name="TP1" library="wirepad" package="1,6/0,9" value="TP1" x="9.525" y="4.1275" rot="R180"/>
+<element name="TP1" library="wirepad" package="1,6/0,9" value="TP1" x="9.525" y="2.54" rot="R180"/>
 <element name="TP3" library="wirepad" package="1,6/0,9" value="TP3" x="16.51" y="18.415"/>
 <element name="TP2" library="wirepad" package="1,6/0,9" value="TP2" x="16.51" y="13.0175" rot="R270"/>
 <element name="TP5" library="wirepad" package="1,6/0,9" value="TP5" x="20.32" y="22.225"/>
@@ -1767,8 +1767,8 @@ Covered vias can be set in Masks (Limit).
 <wire x1="13.335" y1="9.8425" x2="13.0175" y2="9.8425" width="0.127" layer="1"/>
 <wire x1="13.0175" y1="9.8425" x2="11.43" y2="8.255" width="0.127" layer="1"/>
 <wire x1="13.335" y1="9.8425" x2="13.97" y2="10.4775" width="0.127" layer="1"/>
-<wire x1="26.035" y1="17.78" x2="22.86" y2="19.685" width="0" layer="19" extent="1-1"/>
-<wire x1="13.97" y1="18.7325" x2="17.01" y2="16.725" width="0" layer="19" extent="1-1"/>
+<wire x1="17.01" y1="16.725" x2="13.97" y2="18.7325" width="0" layer="19" extent="1-1"/>
+<wire x1="22.86" y1="19.685" x2="26.035" y2="17.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWR/TX_B">
 <contactref element="IC3" pad="2"/>
@@ -1857,9 +1857,9 @@ Covered vias can be set in Masks (Limit).
 <wire x1="15.0368" y1="21.325" x2="14.605" y2="21.325" width="0.127" layer="1"/>
 <wire x1="14.605" y1="21.325" x2="14.605" y2="11.43" width="0.127" layer="1"/>
 <wire x1="14.605" y1="11.43" x2="15.5575" y2="10.4775" width="0.127" layer="1"/>
-<wire x1="15.5575" y1="10.4775" x2="15.5575" y2="5.08" width="0.127" layer="1"/>
-<wire x1="9.525" y1="4.1275" x2="14.605" y2="4.1275" width="0.127" layer="1"/>
-<wire x1="14.605" y1="4.1275" x2="15.5575" y2="5.08" width="0.127" layer="1"/>
+<wire x1="15.5575" y1="10.4775" x2="15.5575" y2="5.3975" width="0.127" layer="1"/>
+<wire x1="9.525" y1="2.54" x2="12.7" y2="2.54" width="0.127" layer="1"/>
+<wire x1="12.7" y1="2.54" x2="15.5575" y2="5.3975" width="0.127" layer="1"/>
 </signal>
 <signal name="VCC" class="1">
 <contactref element="IC3" pad="4"/>
@@ -1901,7 +1901,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="15.24" y1="14.605" x2="15.24" y2="11.7475" width="0.254" layer="1"/>
 <wire x1="15.24" y1="11.7475" x2="16.51" y2="10.4775" width="0.254" layer="1"/>
 <wire x1="16.51" y1="10.4775" x2="16.51" y2="5.08" width="0.254" layer="1"/>
-<wire x1="16.51" y1="5.08" x2="12.7" y2="1.27" width="0.254" layer="1"/>
+<wire x1="16.51" y1="5.08" x2="12.3825" y2="0.9525" width="0.254" layer="1"/>
 <wire x1="4.7625" y1="25.7175" x2="1.905" y2="25.7175" width="0.254" layer="1"/>
 <wire x1="15.5575" y1="24.765" x2="5.715" y2="24.765" width="0.127" layer="1"/>
 <wire x1="5.715" y1="24.765" x2="4.7625" y2="25.7175" width="0.127" layer="1"/>
@@ -1914,8 +1914,8 @@ Covered vias can be set in Masks (Limit).
 <wire x1="13.335" y1="15.875" x2="1.905" y2="15.875" width="0.127" layer="1"/>
 <wire x1="4.1275" y1="5.715" x2="1.905" y2="5.715" width="0.127" layer="1"/>
 <wire x1="27.46375" y1="25.4" x2="26.67" y2="26.19375" width="0.254" layer="1"/>
-<wire x1="1.905" y1="2.54" x2="3.175" y2="1.27" width="0.254" layer="1"/>
-<wire x1="3.175" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="1"/>
+<wire x1="1.905" y1="0.9525" x2="12.3825" y2="0.9525" width="0.254" layer="1"/>
+<wire x1="1.905" y1="0.9525" x2="1.905" y2="2.54" width="0.254" layer="1"/>
 <wire x1="16.06" y1="24.2625" x2="20.32" y2="26.67" width="0" layer="19" extent="1-1"/>
 <wire x1="3.9755" y1="5.08" x2="4.1275" y2="5.715" width="0" layer="19" extent="1-1"/>
 </signal>
