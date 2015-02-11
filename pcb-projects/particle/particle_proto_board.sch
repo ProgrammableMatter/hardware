@@ -7772,10 +7772,10 @@ Source: www.kingbright.com</description>
 <package name="KSC351JLFS">
 <description>http://at.rs-online.com/web/p/tastschalter/7931651/
 http://at.rs-online.com/web/p/tastschalter/7931639/</description>
-<smd name="1" x="-2.9" y="2" dx="1" dy="2.8" layer="1" rot="R90"/>
-<smd name="2" x="-2.9" y="-2" dx="1" dy="2.8" layer="1" rot="R90"/>
-<smd name="3" x="2.9" y="-2" dx="1" dy="2.8" layer="1" rot="R90"/>
-<smd name="4" x="2.9" y="2" dx="1" dy="2.8" layer="1" rot="R90"/>
+<smd name="1@1" x="-2.9" y="2" dx="1" dy="2.8" layer="1" rot="R90"/>
+<smd name="2@1" x="-2.9" y="-2" dx="1" dy="2.8" layer="1" rot="R90"/>
+<smd name="2@2" x="2.9" y="-2" dx="1" dy="2.8" layer="1" rot="R90"/>
+<smd name="1@2" x="2.9" y="2" dx="1" dy="2.8" layer="1" rot="R90"/>
 <wire x1="-2.54" y1="2.032" x2="0" y2="2.032" width="0.127" layer="51"/>
 <wire x1="0" y1="2.032" x2="2.54" y2="2.032" width="0.127" layer="51"/>
 <wire x1="-2.54" y1="-2.032" x2="0" y2="-2.032" width="0.127" layer="51"/>
@@ -7808,12 +7808,50 @@ http://at.rs-online.com/web/p/tastschalter/7931639/</description>
 <wire x1="-3.4" y1="2.5" x2="-3.1" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-3.4" y1="1.5" x2="-3.1" y2="1.5" width="0.127" layer="21"/>
 </package>
+<package name="KSC321GLFS">
+<description>http://at.rs-online.com/web/p/tastschalter/7931633/</description>
+<smd name="1@1" x="-4.45" y="2" dx="1" dy="3.1" layer="1" rot="R90"/>
+<smd name="1@2" x="4.45" y="2" dx="1" dy="3.1" layer="1" rot="R90"/>
+<smd name="2@2" x="4.45" y="-2" dx="1" dy="3.1" layer="1" rot="R90"/>
+<smd name="2@1" x="-4.45" y="-2" dx="1" dy="3.1" layer="1" rot="R90"/>
+<wire x1="-4" y1="2" x2="0" y2="2" width="0.127" layer="51"/>
+<wire x1="0" y1="2" x2="4" y2="2" width="0.127" layer="51"/>
+<wire x1="-4" y1="-2" x2="0" y2="-2" width="0.127" layer="51"/>
+<wire x1="0" y1="-2" x2="4" y2="-2" width="0.127" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="2" width="0.127" layer="51"/>
+<wire x1="1" y1="0" x2="0" y2="-1" width="0.127" layer="51"/>
+<wire x1="0" y1="-1" x2="0" y2="-2" width="0.127" layer="51"/>
+<wire x1="-3.1" y1="3.1" x2="-3.1" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="2.5" x2="-3.1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="1.5" x2="-3.1" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="-1.5" x2="-3.1" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="-2.5" x2="-3.1" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="-3.1" x2="3.1" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="3.1" x2="3.1" y2="3.1" width="0.127" layer="21"/>
+<wire x1="3.1" y1="3.1" x2="3.1" y2="2.5" width="0.127" layer="21"/>
+<wire x1="3.1" y1="2.5" x2="3.1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="3.1" y1="1.5" x2="3.1" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="3.1" y1="-1.5" x2="3.1" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="3.1" y1="-2.5" x2="3.1" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="5" y1="2.5" x2="5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="5" y1="-1.5" x2="5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-5" y1="2.5" x2="-5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-1.5" x2="-5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-4.9" y1="2.5" x2="-3.1" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-5" y1="1.5" x2="-3.1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-1.5" x2="-3.1" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-2.5" x2="-3.1" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="3.1" y1="-2.5" x2="5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="3.1" y1="-1.5" x2="5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="5" y1="2.5" x2="3.1" y2="2.5" width="0.127" layer="21"/>
+<wire x1="3.1" y1="1.5" x2="5" y2="1.5" width="0.127" layer="21"/>
+</package>
 <package name="EVQP6LB55">
 <description>http://at.rs-online.com/web/p/tastschalter/7561697/</description>
-<smd name="1" x="-2.1" y="1.45" dx="0.5" dy="0.7" layer="1"/>
-<smd name="2" x="-2.1" y="-1.45" dx="0.5" dy="0.7" layer="1"/>
-<smd name="3" x="2.1" y="-1.45" dx="0.5" dy="0.7" layer="1"/>
-<smd name="4" x="2.1" y="1.45" dx="0.5" dy="0.7" layer="1"/>
+<smd name="1@1" x="-2.1" y="1.45" dx="0.5" dy="0.7" layer="1"/>
+<smd name="2@1" x="-2.1" y="-1.45" dx="0.5" dy="0.7" layer="1"/>
+<smd name="2@2" x="2.1" y="-1.45" dx="0.5" dy="0.7" layer="1"/>
+<smd name="1@2" x="2.1" y="1.45" dx="0.5" dy="0.7" layer="1"/>
 <wire x1="-1.905" y1="1.27" x2="0" y2="1.27" width="0.127" layer="51"/>
 <wire x1="0" y1="1.27" x2="1.905" y2="1.27" width="0.127" layer="51"/>
 <wire x1="-1.905" y1="-1.27" x2="0" y2="-1.27" width="0.127" layer="51"/>
@@ -7847,44 +7885,6 @@ http://at.rs-online.com/web/p/tastschalter/7931639/</description>
 <wire x1="-2.05" y1="-2.05" x2="2.05" y2="-2.05" width="0.127" layer="21"/>
 <wire x1="-2.05" y1="2.05" x2="2.05" y2="2.05" width="0.127" layer="21"/>
 </package>
-<package name="KSC321GLFS">
-<description>http://at.rs-online.com/web/p/tastschalter/7931633/</description>
-<smd name="1" x="-4.45" y="2" dx="1" dy="3.1" layer="1" rot="R90"/>
-<smd name="4" x="4.45" y="2" dx="1" dy="3.1" layer="1" rot="R90"/>
-<smd name="3" x="4.45" y="-2" dx="1" dy="3.1" layer="1" rot="R90"/>
-<smd name="2" x="-4.45" y="-2" dx="1" dy="3.1" layer="1" rot="R90"/>
-<wire x1="-4" y1="2" x2="0" y2="2" width="0.127" layer="51"/>
-<wire x1="0" y1="2" x2="4" y2="2" width="0.127" layer="51"/>
-<wire x1="-4" y1="-2" x2="0" y2="-2" width="0.127" layer="51"/>
-<wire x1="0" y1="-2" x2="4" y2="-2" width="0.127" layer="51"/>
-<wire x1="0" y1="0" x2="0" y2="2" width="0.127" layer="51"/>
-<wire x1="1" y1="0" x2="0" y2="-1" width="0.127" layer="51"/>
-<wire x1="0" y1="-1" x2="0" y2="-2" width="0.127" layer="51"/>
-<wire x1="-3.1" y1="3.1" x2="-3.1" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3.1" y1="2.5" x2="-3.1" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-3.1" y1="1.5" x2="-3.1" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-3.1" y1="-1.5" x2="-3.1" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-3.1" y1="-2.5" x2="-3.1" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="-3.1" y1="-3.1" x2="3.1" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="-3.1" y1="3.1" x2="3.1" y2="3.1" width="0.127" layer="21"/>
-<wire x1="3.1" y1="3.1" x2="3.1" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3.1" y1="2.5" x2="3.1" y2="1.5" width="0.127" layer="21"/>
-<wire x1="3.1" y1="1.5" x2="3.1" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="3.1" y1="-1.5" x2="3.1" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="3.1" y1="-2.5" x2="3.1" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="5" y1="2.5" x2="5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="5" y1="-1.5" x2="5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-5" y1="2.5" x2="-5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-5" y1="-1.5" x2="-5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-4.9" y1="2.5" x2="-3.1" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-5" y1="1.5" x2="-3.1" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-5" y1="-1.5" x2="-3.1" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-5" y1="-2.5" x2="-3.1" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="3.1" y1="-2.5" x2="5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="3.1" y1="-1.5" x2="5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="5" y1="2.5" x2="3.1" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3.1" y1="1.5" x2="5" y2="1.5" width="0.127" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="SWITCH-MOMENTARY-2">
@@ -7893,9 +7893,15 @@ http://at.rs-online.com/web/p/tastschalter/7931639/</description>
 <circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
 <circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
 <text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1@1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2"/>
+<pin name="2@1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2@2" x="5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1@2" x="-5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="2"/>
+<circle x="2.54" y="-2.54" radius="0.127" width="0.4064" layer="94"/>
+<circle x="-2.54" y="-2.54" radius="0.127" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7906,8 +7912,10 @@ http://at.rs-online.com/web/p/tastschalter/7931639/</description>
 <devices>
 <device name="" package="KSC321GLFS">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1@1" pad="1@1"/>
+<connect gate="G$1" pin="1@2" pad="1@2"/>
+<connect gate="G$1" pin="2@1" pad="2@1"/>
+<connect gate="G$1" pin="2@2" pad="2@2"/>
 </connects>
 <technologies>
 <technology name="GULLWING"/>
@@ -7915,8 +7923,10 @@ http://at.rs-online.com/web/p/tastschalter/7931639/</description>
 </device>
 <device name="JBEND" package="KSC351JLFS">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1@1" pad="1@1"/>
+<connect gate="G$1" pin="1@2" pad="1@2"/>
+<connect gate="G$1" pin="2@1" pad="2@1"/>
+<connect gate="G$1" pin="2@2" pad="2@2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7924,8 +7934,10 @@ http://at.rs-online.com/web/p/tastschalter/7931639/</description>
 </device>
 <device name="PANASONIC-EVQP6LB55" package="EVQP6LB55">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1@1" pad="1@1"/>
+<connect gate="G$1" pin="1@2" pad="1@2"/>
+<connect gate="G$1" pin="2@1" pad="2@1"/>
+<connect gate="G$1" pin="2@2" pad="2@2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8168,7 +8180,10 @@ SPI | 1-3 | 1-3 | 1-2</text>
 <pinref part="IC1" gate="B" pin="GND"/>
 <wire x1="50.8" y1="137.16" x2="58.42" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="109.22" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="1"/>
+<pinref part="S2" gate="G$1" pin="1@1"/>
+<pinref part="S2" gate="G$1" pin="1@2"/>
+<wire x1="25.4" y1="109.22" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
+<junction x="22.86" y="109.22"/>
 </segment>
 <segment>
 <wire x1="73.66" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
@@ -8258,7 +8273,7 @@ SPI | 1-3 | 1-3 | 1-2</text>
 <junction x="22.86" y="144.78"/>
 <pinref part="IC1" gate="B" pin="PB3"/>
 <wire x1="22.86" y1="144.78" x2="58.42" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="2"/>
+<pinref part="S2" gate="G$1" pin="2@1"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="35.56" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
