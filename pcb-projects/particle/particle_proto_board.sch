@@ -8140,12 +8140,12 @@ SPI | 1-3 | 1-3 | 1-2</text>
 <instance part="TP2" gate="1" x="200.66" y="154.94" rot="R270"/>
 <instance part="TP5" gate="1" x="307.34" y="116.84" rot="R270"/>
 <instance part="TP4" gate="1" x="299.72" y="154.94" rot="R270"/>
-<instance part="P+4" gate="VCC" x="15.24" y="73.66"/>
-<instance part="GND2" gate="1" x="15.24" y="27.94" rot="MR0"/>
-<instance part="VCC_A" gate="1" x="20.32" y="58.42" rot="R90"/>
-<instance part="VCC_B" gate="1" x="10.16" y="58.42" rot="R90"/>
-<instance part="GND_A" gate="1" x="20.32" y="40.64" rot="R270"/>
-<instance part="GND_B" gate="1" x="10.16" y="40.64" rot="R270"/>
+<instance part="P+4" gate="VCC" x="17.78" y="73.66"/>
+<instance part="GND2" gate="1" x="17.78" y="30.48" rot="MR0"/>
+<instance part="VCC_A" gate="1" x="22.86" y="58.42" rot="R90"/>
+<instance part="VCC_B" gate="1" x="12.7" y="58.42" rot="R90"/>
+<instance part="GND_A" gate="1" x="22.86" y="43.18" rot="R270"/>
+<instance part="GND_B" gate="1" x="12.7" y="43.18" rot="R270"/>
 <instance part="RXB" gate="1" x="259.08" y="154.94" rot="R270"/>
 <instance part="TXB" gate="1" x="279.4" y="116.84" rot="R270"/>
 <instance part="RXA" gate="1" x="241.3" y="154.94" rot="R270"/>
@@ -8194,12 +8194,12 @@ SPI | 1-3 | 1-3 | 1-2</text>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="15.24" y1="30.48" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="33.02" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="GND_B" gate="1" pin="P"/>
 <pinref part="GND_A" gate="1" pin="P"/>
-<wire x1="10.16" y1="38.1" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
-<junction x="15.24" y="38.1"/>
-<wire x1="15.24" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
+<junction x="17.78" y="40.64"/>
+<wire x1="17.78" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -8366,11 +8366,11 @@ SPI | 1-3 | 1-3 | 1-2</text>
 <segment>
 <pinref part="VCC_B" gate="1" pin="P"/>
 <pinref part="VCC_A" gate="1" pin="P"/>
-<wire x1="10.16" y1="60.96" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
-<wire x1="15.24" y1="60.96" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="71.12" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
-<junction x="15.24" y="60.96"/>
+<wire x1="17.78" y1="60.96" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="71.12" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
+<junction x="17.78" y="60.96"/>
 </segment>
 <segment>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
