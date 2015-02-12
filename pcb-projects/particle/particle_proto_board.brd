@@ -1666,7 +1666,7 @@ Covered vias can be set in Masks (Limit).
 <element name="RXA_LED" library="led" package="SML1206" value="GRN" x="26.3525" y="13.97" rot="R180"/>
 <element name="R6" library="rcl" package="R1206" value="150" x="20.955" y="13.97" rot="R180"/>
 <element name="R1" library="rcl" package="R1206" value="150" x="5.3975" y="5.08" rot="R180"/>
-<element name="C1" library="rcl" package="C1206" value="100n" x="12.065" y="27.94"/>
+<element name="C1" library="rcl" package="C1206" value="100n" x="12.065" y="28.2575"/>
 <element name="TP1" library="wirepad" package="1,6/0,9" value="TP1" x="9.525" y="2.54" rot="R180"/>
 <element name="TP3" library="wirepad" package="1,6/0,9" value="TP3" x="16.51" y="18.415"/>
 <element name="TP2" library="wirepad" package="1,6/0,9" value="TP2" x="16.51" y="13.0175" rot="R270"/>
@@ -1717,7 +1717,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="10.16" y1="19.05" x2="11.1125" y2="20.0025" width="0.127" layer="1"/>
 <wire x1="11.1125" y1="20.0025" x2="12.7" y2="20.0025" width="0.127" layer="1"/>
 <wire x1="12.7" y1="20.0025" x2="13.97" y2="18.7325" width="0.127" layer="1"/>
-<wire x1="13.465" y1="26.385" x2="13.465" y2="27.94" width="0.127" layer="1"/>
+<wire x1="13.465" y1="26.385" x2="13.465" y2="28.2575" width="0.127" layer="1"/>
 <wire x1="16.51" y1="23.6728" x2="16.51" y2="22.225" width="0.127" layer="1"/>
 <contactref element="IC2" pad="1"/>
 <wire x1="17.01" y1="16.725" x2="17.01" y2="16.645" width="0.254" layer="1"/>
@@ -1745,7 +1745,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="11.275" y1="26.035" x2="14.125" y2="26.035" width="0.127" layer="1"/>
 <wire x1="31.75" y1="27.94" x2="31.75" y2="28.73375" width="0.254" layer="1"/>
 <wire x1="30.7975" y1="29.68625" x2="15.0525" y2="29.68625" width="0.3048" layer="1"/>
-<wire x1="13.465" y1="27.94" x2="13.465" y2="28.09875" width="0.254" layer="1"/>
+<wire x1="13.465" y1="28.2575" x2="13.465" y2="28.09875" width="0.254" layer="1"/>
 <wire x1="13.465" y1="28.09875" x2="15.0525" y2="29.68625" width="0.254" layer="1"/>
 <wire x1="31.75" y1="28.73375" x2="30.7975" y2="29.68625" width="0.254" layer="1"/>
 <wire x1="14.125" y1="26.035" x2="13.97" y2="26.035" width="0.127" layer="1"/>
@@ -1893,7 +1893,7 @@ Covered vias can be set in Masks (Limit).
 <via x="20.32" y="26.035" extent="1-16" drill="0.8" shape="square"/>
 <wire x1="1.905" y1="27.94" x2="4.928" y2="28.2575" width="0.127" layer="1"/>
 <via x="4.7625" y="26.035" extent="1-16" drill="0.8" shape="square"/>
-<wire x1="10.665" y1="27.94" x2="10.4775" y2="27.94" width="0.127" layer="1"/>
+<wire x1="10.665" y1="28.2575" x2="10.4775" y2="27.94" width="0.127" layer="1"/>
 <wire x1="10.4775" y1="27.94" x2="8.89" y2="29.5275" width="0.127" layer="1"/>
 <wire x1="8.89" y1="29.5275" x2="3.4925" y2="29.5275" width="0.127" layer="1"/>
 <wire x1="3.4925" y1="29.5275" x2="1.905" y2="27.94" width="0.127" layer="1"/>

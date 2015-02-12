@@ -8272,8 +8272,8 @@ SPI | 1-3 | 1-3 | 1-2</text>
 <wire x1="22.86" y1="147.32" x2="22.86" y2="144.78" width="0.1524" layer="91"/>
 <junction x="22.86" y="144.78"/>
 <pinref part="IC1" gate="B" pin="PB3"/>
-<wire x1="22.86" y1="144.78" x2="58.42" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="S2" gate="G$1" pin="2@1"/>
+<wire x1="22.86" y1="144.78" x2="58.42" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="35.56" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
