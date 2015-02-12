@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.15875" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.00625" altunitdist="inch" altunit="inch"/>
+<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.00625" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -126,10 +126,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="33.65" y2="0" width="0" layer="20"/>
-<wire x1="33.65" y1="0" x2="33.65" y2="30.4" width="0" layer="20"/>
-<wire x1="33.65" y1="30.4" x2="0" y2="30.4" width="0" layer="20"/>
-<wire x1="0" y1="30.4" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0.635" y1="0.3175" x2="33.015" y2="0.3175" width="0" layer="20"/>
+<wire x1="33.015" y1="0.3175" x2="33.015" y2="30.4" width="0" layer="20"/>
+<wire x1="33.015" y1="30.4" x2="0.635" y2="30.4" width="0" layer="20"/>
+<wire x1="0.635" y1="30.4" x2="0.635" y2="0.3175" width="0" layer="20"/>
 <text x="29.21" y="18.415" size="0.635" layer="1" font="vector" ratio="23" distance="8" rot="SR270">RUBIEN RAOUL</text>
 <text x="5.23875" y="2.54" size="0.635" layer="1" font="vector" ratio="20" distance="8" rot="SR180">+5V</text>
 <text x="17.78" y="27.94" size="0.635" layer="1" font="vector" ratio="20" distance="8" rot="SR0">TX/RX B</text>
@@ -1558,6 +1558,9 @@ Covered vias can be set in Masks (Limit).
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="6.25mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="*"/>
 <param name="PrefDir.2" value="0"/>
