@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -135,16 +135,32 @@
 <text x="17.78" y="27.94" size="0.635" layer="1" font="vector" ratio="20" distance="8" rot="SR0">TX/RX B</text>
 <text x="24.765" y="2.54" size="0.635" layer="1" font="vector" ratio="20" distance="8" rot="SR180">TX/RX A</text>
 <text x="30.48" y="18.415" size="0.635" layer="1" font="vector" ratio="23" distance="8" rot="SR270">V0.9 - TU-GRAZ/ITI</text>
-<wire x1="31.75" y1="27.94" x2="31.75" y2="2.54" width="1.016" layer="29"/>
-<wire x1="1.905" y1="27.94" x2="1.905" y2="2.54" width="1.016" layer="29"/>
 <text x="30.48" y="18.415" size="0.635" layer="29" font="vector" ratio="23" distance="8" rot="SR270">V0.9 - TU-GRAZ/ITI</text>
 <text x="29.21" y="18.415" size="0.635" layer="29" font="vector" ratio="23" distance="8" rot="SR270">RUBIEN RAOUL</text>
 <text x="24.765" y="2.54" size="0.635" layer="29" font="vector" ratio="20" distance="8" rot="SR180">TX/RX A</text>
 <text x="5.23875" y="2.54" size="0.635" layer="29" font="vector" ratio="20" distance="0" rot="SR180">+5V</text>
 <text x="17.78" y="27.94" size="0.635" layer="29" font="vector" ratio="20" distance="8" rot="SR0">TX/RX B</text>
-<wire x1="1.27" y1="27.94" x2="1.27" y2="2.54" width="1.016" layer="29"/>
-<wire x1="32.385" y1="27.94" x2="32.385" y2="2.54" width="1.016" layer="29"/>
 <rectangle x1="4.45020625" y1="11.69485625" x2="5.05455625" y2="12.275675" layer="29"/>
+<polygon width="0.3048" layer="29" spacing="1.778">
+<vertex x="1.27" y="29.845"/>
+<vertex x="1.27" y="0.635"/>
+<vertex x="3.175" y="0.635"/>
+<vertex x="3.175" y="3.81"/>
+<vertex x="2.54" y="3.81"/>
+<vertex x="2.54" y="26.9875"/>
+<vertex x="3.175" y="26.9875"/>
+<vertex x="3.175" y="29.845"/>
+</polygon>
+<polygon width="0.3048" layer="29" spacing="1.778">
+<vertex x="32.385" y="0.635"/>
+<vertex x="32.385" y="29.845"/>
+<vertex x="30.48" y="29.845"/>
+<vertex x="30.48" y="26.67"/>
+<vertex x="31.115" y="26.67"/>
+<vertex x="31.115" y="3.4925"/>
+<vertex x="30.48" y="3.4925"/>
+<vertex x="30.48" y="0.635"/>
+</polygon>
 </plain>
 <libraries>
 <library name="led">
@@ -1558,9 +1574,6 @@ Covered vias can be set in Masks (Limit).
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="6.25mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="*"/>
 <param name="PrefDir.2" value="0"/>
