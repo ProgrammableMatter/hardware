@@ -1,0 +1,7 @@
+task, time, temp, unit
+ xx,     42,  50,   degC
+ xx,     100, 165,  degC
+ xx,     190, 165,  degC
+ xx,     220, 225,  degC
+ xx,     270, 225,  degC
+xx,      290, 185,  degC
