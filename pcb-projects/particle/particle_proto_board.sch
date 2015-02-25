@@ -8104,6 +8104,10 @@ http://at.rs-online.com/web/p/tastschalter/7931639/</description>
 -------------------
 TPI | 1-2 | 1-2 |  -
 SPI | 1-3 | 1-3 | 1-2</text>
+<wire x1="190.5" y1="22.86" x2="175.26" y2="38.1" width="1.27" layer="108"/>
+<wire x1="190.5" y1="38.1" x2="175.26" y2="22.86" width="1.27" layer="108"/>
+<wire x1="274.32" y1="22.86" x2="259.08" y2="38.1" width="1.27" layer="108"/>
+<wire x1="274.32" y1="38.1" x2="259.08" y2="22.86" width="1.27" layer="108"/>
 </plain>
 <instances>
 <instance part="IC1" gate="B" x="76.2" y="149.86"/>
