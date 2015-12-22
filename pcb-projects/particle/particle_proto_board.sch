@@ -8031,17 +8031,11 @@ http://at.rs-online.com/web/p/tastschalter/7931639/</description>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
 <part name="TXB_LED" library="led" deviceset="LED" device="SML1206" value="RED"/>
-<part name="RXB_LED" library="led" deviceset="LED" device="SML1206" value="GRN"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="470"/>
-<part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="diodes" deviceset="DMC2400V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
 <part name="TXA_LED" library="led" deviceset="LED" device="SML1206" value="RED"/>
-<part name="RXA_LED" library="led" deviceset="LED" device="SML1206" value="GRN"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="470"/>
-<part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="12k"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
 <part name="TP1" library="wirepad" deviceset="1,6/0,9" device="" value="TP1"/>
@@ -8119,18 +8113,12 @@ SPI | 1-3 | 1-3 | 1-2</text>
 <instance part="P+6" gate="VCC" x="289.56" y="154.94"/>
 <instance part="R5" gate="G$1" x="187.96" y="48.26" rot="R270"/>
 <instance part="TXB_LED" gate="G$1" x="187.96" y="58.42" rot="R180"/>
-<instance part="RXB_LED" gate="G$1" x="205.74" y="35.56"/>
-<instance part="R4" gate="G$1" x="205.74" y="45.72" rot="R90"/>
-<instance part="GND5" gate="1" x="205.74" y="25.4"/>
 <instance part="IC2" gate="A" x="203.2" y="99.06"/>
 <instance part="IC2" gate="B" x="210.82" y="137.16" rot="MR180"/>
 <instance part="GND3" gate="1" x="203.2" y="83.82" rot="MR0"/>
 <instance part="P+1" gate="VCC" x="210.82" y="154.94" rot="MR0"/>
 <instance part="R7" gate="G$1" x="266.7" y="48.26" rot="MR270"/>
 <instance part="TXA_LED" gate="G$1" x="266.7" y="58.42" rot="MR180"/>
-<instance part="RXA_LED" gate="G$1" x="284.48" y="35.56" rot="MR0"/>
-<instance part="R6" gate="G$1" x="284.48" y="45.72" rot="MR90"/>
-<instance part="GND7" gate="1" x="284.48" y="25.4" rot="MR0"/>
 <instance part="R1" gate="G$1" x="22.86" y="152.4" rot="MR90"/>
 <instance part="C1" gate="G$1" x="10.16" y="137.16" rot="MR0"/>
 <instance part="TP1" gate="1" x="96.52" y="121.92" rot="R90"/>
@@ -8226,16 +8214,6 @@ SPI | 1-3 | 1-3 | 1-2</text>
 <label x="149.86" y="35.56" size="1.016" layer="95" xref="yes"/>
 <pinref part="TPI/SPI" gate="G$1" pin="6"/>
 </segment>
-<segment>
-<pinref part="RXA_LED" gate="G$1" pin="C"/>
-<pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="284.48" y1="30.48" x2="284.48" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="RXB_LED" gate="G$1" pin="C"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="205.74" y1="30.48" x2="205.74" y2="27.94" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="PWR/TX_B" class="0">
 <segment>
@@ -8286,11 +8264,6 @@ SPI | 1-3 | 1-3 | 1-2</text>
 <junction x="289.56" y="129.54"/>
 <pinref part="RXB" gate="1" pin="P"/>
 <wire x1="259.08" y1="152.4" x2="259.08" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="205.74" y="60.96" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="50.8" x2="205.74" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SW_PWR/RX_B" class="0">
@@ -8480,11 +8453,6 @@ SPI | 1-3 | 1-3 | 1-2</text>
 <wire x1="241.3" y1="152.4" x2="241.3" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="284.48" y="60.96" size="1.778" layer="95" rot="R90" xref="yes"/>
-<wire x1="284.48" y1="60.96" x2="284.48" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="B" pin="PA5"/>
 <wire x1="93.98" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
 <label x="99.06" y="142.24" size="1.016" layer="95" xref="yes"/>
@@ -8579,20 +8547,6 @@ SPI | 1-3 | 1-3 | 1-2</text>
 <wire x1="157.48" y1="25.4" x2="157.48" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="TPI/SPI" gate="G$1" pin="4"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="RXA_LED" gate="G$1" pin="A"/>
-<wire x1="284.48" y1="40.64" x2="284.48" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="RXB_LED" gate="G$1" pin="A"/>
-<wire x1="205.74" y1="40.64" x2="205.74" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
