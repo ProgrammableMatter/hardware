@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name sot26)(type KiCad)(uri "$(KIPRJMOD)/modules/sot26.pretty")(options "")(descr ""))
-  (lib (name SMT_PIN_HEADER)(type KiCad)(uri "$(KIPRJMOD)/modules/SMD_PIN_HEADER.pretty")(options "")(descr ""))
+  (lib (name sot26)(type KiCad)(uri ${KIPRJMOD}/modules/sot26.pretty)(options "")(descr ""))
+  (lib (name SMT_PIN_HEADER)(type KiCad)(uri ${KIPRJMOD}/modules/SMD_PIN_HEADER.pretty)(options "")(descr ""))
 )
