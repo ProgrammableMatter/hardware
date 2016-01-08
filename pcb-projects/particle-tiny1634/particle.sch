@@ -52,6 +52,8 @@ F 0 "IC1" H 1100 3950 50  0000 C CNN
 F 1 "ATTINY1634-SU" H 2400 1750 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-20_7.5x12.8mm_Pitch1.27mm" H 1850 3000 50  0000 C CIN
 F 3 "" H 1850 3200 50  0000 C CNN
+F 4 "http://at.rs-online.com/web/p/mikrocontroller/7617703/" H 1850 2750 60  0001 C CNN "supplyer"
+F 5 "rs attiny1634R-su 2-8pcs 1.84 >10pcs 1.725 farnell attiny1634-su <10pcs 1.44 <25pcs 1.35" H 1850 2750 60  0001 C CNN "price"
 	1    1850 2750
 	1    0    0    -1  
 $EndComp
@@ -186,6 +188,8 @@ F 0 "D1" H 1700 6400 50  0000 C CNN
 F 1 "HB" H 1700 6200 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 1700 6300 50  0001 C CNN
 F 3 "" H 1700 6300 50  0000 C CNN
+F 4 "http://at.rs-online.com/web/p/leds-sichtbares-licht/7269225/" H 1700 6300 60  0001 C CNN "supplyer"
+F 5 "25-100pcs 0.154" H 1700 6300 60  0001 C CNN "price"
 	1    1700 6300
 	-1   0    0    1   
 $EndComp
@@ -208,6 +212,8 @@ F 0 "D2" H 1700 6750 50  0000 C CNN
 F 1 "STATUS0" H 1700 6550 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 1700 6650 50  0001 C CNN
 F 3 "" H 1700 6650 50  0000 C CNN
+F 4 "http://at.rs-online.com/web/p/leds-sichtbares-licht/7269215/" H 1700 6650 60  0001 C CNN "supplyer"
+F 5 "25-100pcs 0.14" H 1700 6650 60  0001 C CNN "price"
 	1    1700 6650
 	-1   0    0    1   
 $EndComp
@@ -234,6 +240,8 @@ F 0 "D4" H 1700 7450 50  0000 C CNN
 F 1 "ERROR" H 1700 7250 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 1700 7350 50  0001 C CNN
 F 3 "" H 1700 7350 50  0000 C CNN
+F 4 "http://at.rs-online.com/web/p/leds-sichtbares-licht/7269212/" H 1700 7350 60  0001 C CNN "supplyer"
+F 5 "25-100pcs 0.197 " H 1700 7350 60  0001 C CNN "price"
 	1    1700 7350
 	-1   0    0    1   
 $EndComp
@@ -258,6 +266,8 @@ F 0 "CON1" H 2945 7590 50  0000 C CNN
 F 1 "AVR-ISP-6" H 2785 7120 50  0000 L BNN
 F 2 "SMT_PIN_HEADER:CONN-6" V 2530 7390 50  0001 C CNN
 F 3 "" H 3025 7350 50  0000 C CNN
+F 4 "http://at.rs-online.com/web/p/leiterplatten-header/5286417/" H 3050 7350 60  0001 C CNN "supplyer"
+F 5 "2row-20pole-10pcs/pkg 10-40pcs 2.177" H 3050 7350 60  0001 C CNN "price"
 	1    3050 7350
 	-1   0    0    1   
 $EndComp
@@ -297,7 +307,7 @@ L R R8
 U 1 1 568AE264
 P 7200 3000
 F 0 "R8" V 7280 3000 50  0000 C CNN
-F 1 "0" V 7200 3000 50  0000 C CNN
+F 1 "0R" V 7200 3000 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 7130 3000 50  0001 C CNN
 F 3 "" H 7200 3000 50  0000 C CNN
 	1    7200 3000
@@ -308,9 +318,11 @@ L R R7
 U 1 1 568AED00
 P 7200 1600
 F 0 "R7" V 7280 1600 50  0000 C CNN
-F 1 "0" V 7200 1600 50  0000 C CNN
+F 1 "0R" V 7200 1600 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 7130 1600 50  0001 C CNN
 F 3 "" H 7200 1600 50  0000 C CNN
+F 4 "http://at.rs-online.com/web/p/smd-widerstande/7409104/" V 7200 1600 60  0001 C CNN "supplyer"
+F 5 "<450pcs 0.016" V 7200 1600 60  0001 C CNN "price"
 	1    7200 1600
 	0    -1   -1   0   
 $EndComp
@@ -330,7 +342,7 @@ L R R9
 U 1 1 568AF740
 P 7200 4450
 F 0 "R9" V 7280 4450 50  0000 C CNN
-F 1 "0" V 7200 4450 50  0000 C CNN
+F 1 "0R" V 7200 4450 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 7130 4450 50  0001 C CNN
 F 3 "" H 7200 4450 50  0000 C CNN
 	1    7200 4450
@@ -352,7 +364,7 @@ L R R11
 U 1 1 568AF8A4
 P 9950 1650
 F 0 "R11" V 10030 1650 50  0000 C CNN
-F 1 "0" V 9950 1650 50  0000 C CNN
+F 1 "0R" V 9950 1650 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 9880 1650 50  0001 C CNN
 F 3 "" H 9950 1650 50  0000 C CNN
 	1    9950 1650
@@ -374,7 +386,7 @@ L R R12
 U 1 1 568AF92C
 P 9950 3000
 F 0 "R12" V 10030 3000 50  0000 C CNN
-F 1 "0" V 9950 3000 50  0000 C CNN
+F 1 "0R" V 9950 3000 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 9880 3000 50  0001 C CNN
 F 3 "" H 9950 3000 50  0000 C CNN
 	1    9950 3000
@@ -396,7 +408,7 @@ L R R10
 U 1 1 568AFBDB
 P 7200 5850
 F 0 "R10" V 7280 5850 50  0000 C CNN
-F 1 "0" V 7200 5850 50  0000 C CNN
+F 1 "0R" V 7200 5850 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 7130 5850 50  0001 C CNN
 F 3 "" H 7200 5850 50  0000 C CNN
 	1    7200 5850
@@ -407,7 +419,7 @@ L R R6
 U 1 1 568B0C56
 P 3400 3400
 F 0 "R6" V 3480 3400 50  0000 C CNN
-F 1 "0" V 3400 3400 50  0000 C CNN
+F 1 "0R" V 3400 3400 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 3330 3400 50  0001 C CNN
 F 3 "" H 3400 3400 50  0000 C CNN
 	1    3400 3400
@@ -418,7 +430,7 @@ L R R5
 U 1 1 568B0E35
 P 3400 3200
 F 0 "R5" V 3480 3200 50  0000 C CNN
-F 1 "0" V 3400 3200 50  0000 C CNN
+F 1 "0R" V 3400 3200 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 3330 3200 50  0001 C CNN
 F 3 "" H 3400 3200 50  0000 C CNN
 	1    3400 3200
@@ -659,7 +671,7 @@ L R R13
 U 1 1 568BFEAB
 P 1000 3900
 F 0 "R13" V 1080 3900 50  0000 C CNN
-F 1 "0" V 1000 3900 50  0000 C CNN
+F 1 "0R" V 1000 3900 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 930 3900 50  0001 C CNN
 F 3 "" H 1000 3900 50  0000 C CNN
 	1    1000 3900
@@ -684,6 +696,8 @@ F 0 "FB1" H 7000 2550 50  0000 C CNN
 F 1 "TXN-SMA" H 7000 2300 50  0000 C CNN
 F 2 "SMD_Packages:SMD-1206_Pol" H 7000 2400 50  0001 C CNN
 F 3 "" H 7000 2400 50  0000 C CNN
+F 4 "http://at.rs-online.com/web/p/anzeigen-gluehlampen/0106458/" H 7000 2400 60  0001 C CNN "supplyer"
+F 5 "<240pcs 0.733" H 7000 2400 60  0001 C CNN "price"
 	1    7000 2400
 	1    0    0    -1  
 $EndComp
@@ -712,6 +726,8 @@ F 0 "Q-NORTH1" H 7700 2700 50  0000 L CNN
 F 1 "DMC2700UDM-7" H 7700 2600 50  0000 L CNN
 F 2 "sot26:SOT-26" H 7470 2580 50  0001 C CNN
 F 3 "" H 7300 2700 50  0000 C CNN
+F 4 "http://at.rs-online.com/web/p/transistoren-mosfet/8232918/" H 7300 2700 60  0001 C CNN "supplyer"
+F 5 "20-80pcs 0.1291 >100pcs 0.132" H 7300 2700 60  0001 C CNN "price"
 	1    7300 2700
 	1    0    0    -1  
 $EndComp
@@ -927,6 +943,8 @@ F 0 "R14" V 9980 2400 50  0000 C CNN
 F 1 "1k2" V 9900 2400 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 9830 2400 50  0001 C CNN
 F 3 "" H 9900 2400 50  0000 C CNN
+F 4 "http://at.rs-online.com/web/p/smd-widerstande/8071158/" V 9900 2400 60  0001 C CNN "supplyer"
+F 5 "< 5pkg @ 100pcs 1.72 per pkg" V 9900 2400 60  0001 C CNN "price"
 	1    9900 2400
 	0    -1   -1   0   
 $EndComp
@@ -951,6 +969,8 @@ F 0 "P6" H 4500 7550 50  0000 C CNN
 F 1 "TEST1-3" V 4600 7350 50  0000 C CNN
 F 2 "SMT_PIN_HEADER:CONN-1x3" H 4500 7350 50  0001 C CNN
 F 3 "" H 4500 7350 50  0000 C CNN
+F 4 "http://at.rs-online.com/web/p/leiterplatten-header/0155901/" H 4500 7350 60  0001 C CNN "supplyer"
+F 5 "1row-5pcs-40pol/pkg 1.324" H 4500 7350 60  0001 C CNN "price"
 	1    4500 7350
 	1    0    0    -1  
 $EndComp
