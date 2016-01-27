@@ -542,7 +542,7 @@ F 3 "" H 5200 2550 50  0000 C CNN
 $EndComp
 Text Label 4650 2850 0    60   ~ 0
 TX-NORTH
-Text Label 4650 1950 0    60   ~ 0
+Text Label 4450 1850 0    60   ~ 0
 RX-NORTH
 Text Label 8900 3450 0    60   ~ 0
 TX-CHAIN
@@ -892,7 +892,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 5550 5850 5550
 Wire Wire Line
-	4650 1950 5450 1950
+	4450 1850 5250 1850
 Wire Wire Line
 	5200 2150 5450 2150
 Wire Wire Line
@@ -989,4 +989,18 @@ TP3
 NoConn ~ 4800 4600
 NoConn ~ 4800 4700
 NoConn ~ 4800 5450
+$Comp
+L Jumper_NO_Small 1k2/0
+U 1 1 56938DAE
+P 5350 1850
+F 0 "1k2/0" H 5350 1930 50  0000 C CNN
+F 1 "1k2" H 5360 1790 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206" H 5350 1850 50  0001 C CNN
+F 3 "" H 5350 1850 50  0000 C CNN
+	1    5350 1850
+	1    0    0    -1  
+$EndComp
+NoConn ~ -4150 6100
+Wire Wire Line
+	5450 1850 5450 1950
 $EndSCHEMATC
