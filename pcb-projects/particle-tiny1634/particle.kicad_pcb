@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 133.909999 85.014999 176.605001 128.345001)
     (thickness 1.6)
-    (drawings 12)
+    (drawings 13)
     (tracks 361)
     (zones 0)
     (modules 32)
@@ -1144,6 +1144,9 @@
     )
   )
 
+  (gr_text "V 1.1\n12/2015" (at 170.18 88.265) (layer Dwgs.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text + (at 164.465 119.38) (layer F.Cu) (tstamp 568D9355)
     (effects (font (size 2 2) (thickness 0.3)))
   )
