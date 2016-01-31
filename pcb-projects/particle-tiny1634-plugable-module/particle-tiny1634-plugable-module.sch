@@ -495,11 +495,11 @@ Wire Wire Line
 Wire Wire Line
 	850  3600 900  3600
 Wire Wire Line
-	850  3600 850  3700
+	850  2100 850  3700
 Wire Wire Line
 	900  1700 850  1700
 Wire Wire Line
-	850  1700 850  1650
+	850  1650 850  1800
 Wire Wire Line
 	1800 6300 1950 6300
 Wire Wire Line
@@ -973,4 +973,17 @@ Text Notes 4800 3650 0    60   ~ 0
 Bridge
 Text Notes 850  5500 0    60   ~ 0
 Bridge
+$Comp
+L C C1
+U 1 1 56ADF2A8
+P 850 1950
+F 0 "C1" H 875 2050 50  0000 L CNN
+F 1 "100nF" H 875 1850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 888 1800 50  0001 C CNN
+F 3 "" H 850 1950 50  0000 C CNN
+	1    850  1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 850  1700
+Connection ~ 850  3600
 $EndSCHEMATC
