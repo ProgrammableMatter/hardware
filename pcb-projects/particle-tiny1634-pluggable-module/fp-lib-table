@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name CONN_MOLEX_01x12_RIGHT_ANGLED_38-00-1342)(type KiCad)(uri ${KIPRJMOD}/modules/CONN_MOLEX_01x12_RIGHT_ANGLED_38-00-1342.pretty)(options "")(descr ""))
+  (lib (name sot26)(type KiCad)(uri ${KIPRJMOD}/modules/sot26.pretty)(options "")(descr ""))
+  (lib (name SMT_PIN_HEADER)(type KiCad)(uri ${KIPRJMOD}/modules/SMD_PIN_HEADER.pretty)(options "")(descr ""))
+  (lib (name SMT_USB_MULTICOMP)(type KiCad)(uri ${KIPRJMOD}/modules/multicomp-usb.pretty)(options "")(descr ""))
+  (lib (name CONN_SMT_FCI_01x12_RIGHT_ANGLED-71607-312LF)(type KiCad)(uri ${KIPRJMOD}/modules/CONN_SMT_FCI_01x12_RIGHT_ANGLED-71607-312LF.pretty)(options "")(descr ""))
+)
