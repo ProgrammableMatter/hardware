@@ -57,11 +57,11 @@ F 5 "rs attiny1634R-su 2-8pcs 1.84 >10pcs 1.725 farnell attiny1634-su <10pcs 1.4
 	1    0    0    -1  
 $EndComp
 Text Label 4850 1950 0    60   ~ 0
-SW_PWR/RX-NORTH
+SW_PWR_RX-NORTH
 Text Label 4850 2200 0    60   ~ 0
 RX-NORTH
 Text Label 4850 2700 0    60   ~ 0
-PWR/TX-NORTH
+SW_PWR_TX-NORTH
 Text Label 4850 2400 0    60   ~ 0
 TX-NORTH
 $Comp
@@ -76,11 +76,11 @@ F 3 "" H 6950 5500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4850 4750 0    60   ~ 0
-SW_PWR/RX-SOUTH
+SW_PWR_RX-SOUTH
 Text Label 4850 5000 0    60   ~ 0
 RX-SOUTH
 Text Label 4850 5500 0    60   ~ 0
-PWR/TX-SOUTH
+SW_PWR_TX-SOUTH
 Text Label 4850 5200 0    60   ~ 0
 TX-SOUTH
 $Comp
@@ -95,13 +95,13 @@ F 3 "" H 10150 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 8250 1950 0    60   ~ 0
-SW_PWR/RX-CHAIN
+SW_PWR_RX-EAST
 Text Label 8250 2200 0    60   ~ 0
-RX-CHAIN
+RX-EAST
 Text Label 8250 2700 0    60   ~ 0
-PWR/TX-CHAIN
+SW_PWR_TX-EAST
 Text Label 8250 2400 0    60   ~ 0
-TX-CHAIN
+TX-EAST
 $Comp
 L VCC #PWR01
 U 1 1 56A8C6E0
@@ -340,23 +340,23 @@ STATUS1
 Text Label 4100 1700 2    60   ~ 0
 ERROR
 Text Label 4100 2400 2    60   ~ 0
-PWR/TX-CHAIN
+SW_PWR_TX-EAST
 Text Label 4100 2300 2    60   ~ 0
-SW_PWR/RX-CHAIN
+SW_PWR_RX-EAST
 Text Label 4100 2600 2    60   ~ 0
-RX-CHAIN
+RX-EAST
 Text Label 4100 3600 2    60   ~ 0
 RX-NORTH
 Text Label 4100 3500 2    60   ~ 0
-SW_PWR/RX-NORTH
+SW_PWR_RX-NORTH
 Text Label 4100 3100 2    60   ~ 0
-PWR/TX-NORTH
+SW_PWR_TX-NORTH
 Text Label 4100 2100 2    60   ~ 0
 RX-SOUTH
 Text Label 4100 1900 2    60   ~ 0
-SW_PWR/RX-SOUTH
+SW_PWR_RX-SOUTH
 Text Label 4100 2000 2    60   ~ 0
-PWR/TX-SOUTH
+SW_PWR_TX-SOUTH
 $Comp
 L GND #PWR08
 U 1 1 56A8C703
@@ -440,6 +440,310 @@ F 3 "" H 6950 2700 50  0000 C CNN
 F 4 "http://at.rs-online.com/web/p/transistoren-mosfet/8232918/" H 6950 2700 60  0001 C CNN "supplyer"
 F 5 "20-80pcs 0.1291 >100pcs 0.132" H 6950 2700 60  0001 C CNN "price"
 	1    6950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 56A8C70F
+P 9000 2400
+F 0 "R12" V 9080 2400 50  0000 C CNN
+F 1 "1k2" V 9000 2400 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 8930 2400 50  0001 C CNN
+F 3 "" H 9000 2400 50  0000 C CNN
+F 4 "http://at.rs-online.com/web/p/smd-widerstande/8071158/" V 9000 2400 60  0001 C CNN "supplyer"
+F 5 "< 5pkg @ 100pcs 1.72 per pkg" V 9000 2400 60  0001 C CNN "price"
+	1    9000 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X03 P2
+U 1 1 56A8C711
+P 5500 6750
+F 0 "P2" H 5500 6950 50  0000 C CNN
+F 1 "MCU_TEST" V 5600 6750 50  0000 C CNN
+F 2 "SMT_PIN_HEADER:CONN-1x3" H 5500 6750 50  0001 C CNN
+F 3 "" H 5500 6750 50  0000 C CNN
+F 4 "http://at.rs-online.com/web/p/leiterplatten-header/0155901/" H 5500 6750 60  0001 C CNN "supplyer"
+F 5 "1row-5pcs-40pol/pkg 1.324" H 5500 6750 60  0001 C CNN "price"
+	1    5500 6750
+	1    0    0    -1  
+$EndComp
+Text Label 5100 6850 0    60   ~ 0
+TP1
+Text Label 5100 6750 0    60   ~ 0
+TP2
+Text Label 5100 6650 0    60   ~ 0
+TP3
+NoConn ~ -4150 6100
+$Comp
+L CONN_01X12 P1
+U 1 1 56A8F3DC
+P 4000 7350
+F 0 "P1" H 4000 8000 50  0000 C CNN
+F 1 "INTERFACE" V 4100 7350 50  0000 C CNN
+F 2 "CONN_SMT_FCI_01x12_RIGHT_ANGLED-71607-312LF:01x12-FCI-71607-312LF" H 4000 7350 50  0001 C CNN
+F 3 "" H 4000 7350 50  0000 C CNN
+	1    4000 7350
+	0    1    1    0   
+$EndComp
+Text Label 4350 6500 3    60   ~ 0
+MISO/TXuart
+Text Label 4250 6500 3    60   ~ 0
+MOSI/RXuart
+Text Label 4450 6500 3    60   ~ 0
+SCK
+Text Label 4550 6500 3    60   ~ 0
+RESET
+Text Label 4150 6500 3    60   ~ 0
+GND
+Text Label 4050 6500 3    60   ~ 0
+RX-NORTH
+Text Label 3950 6500 3    60   ~ 0
+TX-SOUTH
+Text Label 3850 6500 3    60   ~ 0
+RX-SOUTH
+Text Label 3750 6500 3    60   ~ 0
+TX-NORTH
+Text Label 3550 6500 3    60   ~ 0
+TX-EAST
+Text Label 3650 6500 3    60   ~ 0
+RX-EAST
+Text Label 3450 6500 3    60   ~ 0
+VCC
+$Comp
+L TEST_1P W2
+U 1 1 56A93461
+P 5900 2800
+F 0 "W2" H 5900 3070 50  0000 C CNN
+F 1 "TP3-N" H 5900 3000 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6100 2800 50  0001 C CNN
+F 3 "" H 6100 2800 50  0000 C CNN
+	1    5900 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P W5
+U 1 1 56A937C8
+P 6300 1850
+F 0 "W5" H 6300 2120 50  0000 C CNN
+F 1 "TP2-N" H 6300 2050 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6500 1850 50  0001 C CNN
+F 3 "" H 6500 1850 50  0000 C CNN
+	1    6300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W3
+U 1 1 56A93D71
+P 5900 4650
+F 0 "W3" H 5900 4920 50  0000 C CNN
+F 1 "TP1-S" H 5900 4850 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6100 4650 50  0001 C CNN
+F 3 "" H 6100 4650 50  0000 C CNN
+	1    5900 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W4
+U 1 1 56A93E8E
+P 5900 5600
+F 0 "W4" H 5900 5870 50  0000 C CNN
+F 1 "TP3-S" H 5900 5800 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6100 5600 50  0001 C CNN
+F 3 "" H 6100 5600 50  0000 C CNN
+	1    5900 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P W11
+U 1 1 56A940CA
+P 9600 1850
+F 0 "W11" H 9600 2120 50  0000 C CNN
+F 1 "TP2-C" H 9600 2050 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 9800 1850 50  0001 C CNN
+F 3 "" H 9800 1850 50  0000 C CNN
+	1    9600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W12
+U 1 1 56A94153
+P 9600 2800
+F 0 "W12" H 9600 3070 50  0000 C CNN
+F 1 "TP4-C" H 9600 3000 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 9800 2800 50  0001 C CNN
+F 3 "" H 9800 2800 50  0000 C CNN
+	1    9600 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P W1
+U 1 1 56A94549
+P 5900 1850
+F 0 "W1" H 5900 2120 50  0000 C CNN
+F 1 "TP1-N" H 5900 2050 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6100 1850 50  0001 C CNN
+F 3 "" H 6100 1850 50  0000 C CNN
+	1    5900 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W6
+U 1 1 56A94472
+P 6300 2800
+F 0 "W6" H 6300 3070 50  0000 C CNN
+F 1 "TP4-N" H 6300 3000 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6500 2800 50  0001 C CNN
+F 3 "" H 6500 2800 50  0000 C CNN
+	1    6300 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P W8
+U 1 1 56A94EDF
+P 6350 5600
+F 0 "W8" H 6350 5870 50  0000 C CNN
+F 1 "TP4-S" H 6350 5800 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6550 5600 50  0001 C CNN
+F 3 "" H 6550 5600 50  0000 C CNN
+	1    6350 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P W7
+U 1 1 56A95683
+P 6350 4650
+F 0 "W7" H 6350 4920 50  0000 C CNN
+F 1 "TP2-S" H 6350 4850 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6550 4650 50  0001 C CNN
+F 3 "" H 6550 4650 50  0000 C CNN
+	1    6350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W10
+U 1 1 56A95B30
+P 9300 2800
+F 0 "W10" H 9300 3070 50  0000 C CNN
+F 1 "TP3-C" H 9300 3000 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 9500 2800 50  0001 C CNN
+F 3 "" H 9500 2800 50  0000 C CNN
+	1    9300 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P W9
+U 1 1 56A95C63
+P 9300 1850
+F 0 "W9" H 9300 2120 50  0000 C CNN
+F 1 "TP1-C" H 9300 2050 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 9500 1850 50  0001 C CNN
+F 3 "" H 9500 1850 50  0000 C CNN
+	1    9300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR014
+U 1 1 56A99AE1
+P 7050 1600
+F 0 "#PWR014" H 7050 1450 50  0001 C CNN
+F 1 "VCC" H 7050 1750 50  0000 C CNN
+F 2 "" H 7050 1600 50  0000 C CNN
+F 3 "" H 7050 1600 50  0000 C CNN
+	1    7050 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR015
+U 1 1 56A9A79C
+P 1400 5050
+F 0 "#PWR015" H 1400 4900 50  0001 C CNN
+F 1 "VCC" H 1400 5200 50  0000 C CNN
+F 2 "" H 1400 5050 50  0000 C CNN
+F 3 "" H 1400 5050 50  0000 C CNN
+	1    1400 5050
+	1    0    0    -1  
+$EndComp
+Text Label 5850 3500 0    60   ~ 0
+TX-NORTH
+Text Label 5350 3500 2    60   ~ 0
+TX-NORTH
+$Comp
+L R R14
+U 1 1 56A9EEA9
+P 8900 3500
+F 0 "R14" V 8980 3500 50  0000 C CNN
+F 1 "0R" V 8900 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 8830 3500 50  0001 C CNN
+F 3 "" H 8900 3500 50  0000 C CNN
+F 4 "http://at.rs-online.com/web/p/smd-widerstande/7409104/" V 8900 3500 60  0001 C CNN "supplyer"
+F 5 "<450pcs 0.016" V 8900 3500 60  0001 C CNN "price"
+	1    8900 3500
+	0    -1   -1   0   
+$EndComp
+Text Label 9150 3500 0    60   ~ 0
+RX-CHAIN
+Text Label 8650 3500 2    60   ~ 0
+RX-CHAIN
+$Comp
+L VCC #PWR016
+U 1 1 56AA0ADA
+P 1400 4750
+F 0 "#PWR016" H 1400 4600 50  0001 C CNN
+F 1 "VCC" H 1400 4900 50  0000 C CNN
+F 2 "" H 1400 4750 50  0000 C CNN
+F 3 "" H 1400 4750 50  0000 C CNN
+	1    1400 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR017
+U 1 1 56AA0B06
+P 1000 4750
+F 0 "#PWR017" H 1000 4600 50  0001 C CNN
+F 1 "VCC" H 1000 4900 50  0000 C CNN
+F 2 "" H 1000 4750 50  0000 C CNN
+F 3 "" H 1000 4750 50  0000 C CNN
+	1    1000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR018
+U 1 1 56AA21BD
+P 1400 5300
+F 0 "#PWR018" H 1400 5150 50  0001 C CNN
+F 1 "VCC" H 1400 5450 50  0000 C CNN
+F 2 "" H 1400 5300 50  0000 C CNN
+F 3 "" H 1400 5300 50  0000 C CNN
+	1    1400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR019
+U 1 1 56AA21E8
+P 1000 5300
+F 0 "#PWR019" H 1000 5150 50  0001 C CNN
+F 1 "VCC" H 1000 5450 50  0000 C CNN
+F 2 "" H 1000 5300 50  0000 C CNN
+F 3 "" H 1000 5300 50  0000 C CNN
+	1    1000 5300
+	1    0    0    -1  
+$EndComp
+Text Notes 8100 3650 0    60   ~ 0
+Bridge
+Text Notes 4850 2550 0    60   ~ 0
+north conn.
+Text Notes 850  5500 0    60   ~ 0
+Bridge
+$Comp
+L C C1
+U 1 1 56ADF2A8
+P 850 1950
+F 0 "C1" H 875 2050 50  0000 L CNN
+F 1 "100nF" H 875 1850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 888 1800 50  0001 C CNN
+F 3 "" H 850 1950 50  0000 C CNN
+	1    850  1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -570,58 +874,14 @@ Wire Wire Line
 	2800 1800 4100 1800
 Wire Wire Line
 	4100 2200 2800 2200
-$Comp
-L R R12
-U 1 1 56A8C70F
-P 9000 2400
-F 0 "R12" V 9080 2400 50  0000 C CNN
-F 1 "1k2" V 9000 2400 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 8930 2400 50  0001 C CNN
-F 3 "" H 9000 2400 50  0000 C CNN
-F 4 "http://at.rs-online.com/web/p/smd-widerstande/8071158/" V 9000 2400 60  0001 C CNN "supplyer"
-F 5 "< 5pkg @ 100pcs 1.72 per pkg" V 9000 2400 60  0001 C CNN "price"
-	1    9000 2400
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	9150 2400 10250 2400
-$Comp
-L CONN_01X03 P2
-U 1 1 56A8C711
-P 5500 6750
-F 0 "P2" H 5500 6950 50  0000 C CNN
-F 1 "MCU_TEST" V 5600 6750 50  0000 C CNN
-F 2 "SMT_PIN_HEADER:CONN-1x3" H 5500 6750 50  0001 C CNN
-F 3 "" H 5500 6750 50  0000 C CNN
-F 4 "http://at.rs-online.com/web/p/leiterplatten-header/0155901/" H 5500 6750 60  0001 C CNN "supplyer"
-F 5 "1row-5pcs-40pol/pkg 1.324" H 5500 6750 60  0001 C CNN "price"
-	1    5500 6750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5300 6850 5100 6850
 Wire Wire Line
 	5300 6750 5100 6750
 Wire Wire Line
 	5300 6650 5100 6650
-Text Label 5100 6850 0    60   ~ 0
-TP1
-Text Label 5100 6750 0    60   ~ 0
-TP2
-Text Label 5100 6650 0    60   ~ 0
-TP3
-NoConn ~ -4150 6100
-$Comp
-L CONN_01X12 P1
-U 1 1 56A8F3DC
-P 4000 7350
-F 0 "P1" H 4000 8000 50  0000 C CNN
-F 1 "INTERFACE" V 4100 7350 50  0000 C CNN
-F 2 "CONN_SMT_FCI_01x12_RIGHT_ANGLED-71607-312LF:01x12-FCI-71607-312LF" H 4000 7350 50  0001 C CNN
-F 3 "" H 4000 7350 50  0000 C CNN
-	1    4000 7350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4350 7150 4350 6500
 Wire Wire Line
@@ -646,176 +906,20 @@ Wire Wire Line
 	3650 7150 3650 6500
 Wire Wire Line
 	3450 7150 3450 6500
-Text Label 4350 6500 3    60   ~ 0
-MISO/TXuart
-Text Label 4250 6500 3    60   ~ 0
-MOSI/RXuart
-Text Label 4450 6500 3    60   ~ 0
-SCK
-Text Label 4550 6500 3    60   ~ 0
-RESET
-Text Label 4150 6500 3    60   ~ 0
-GND
-Text Label 4050 6500 3    60   ~ 0
-RX-NORTH
-Text Label 3950 6500 3    60   ~ 0
-TX-SOUTH
-Text Label 3850 6500 3    60   ~ 0
-RX-SOUTH
-Text Label 3750 6500 3    60   ~ 0
-TX-NORTH
-Text Label 3550 6500 3    60   ~ 0
-TX-CHAIN
-Text Label 3650 6500 3    60   ~ 0
-RX-CHAIN
-Text Label 3450 6500 3    60   ~ 0
-VCC
-$Comp
-L TEST_1P W2
-U 1 1 56A93461
-P 5900 2800
-F 0 "W2" H 5900 3070 50  0000 C CNN
-F 1 "TP3-N" H 5900 3000 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6100 2800 50  0001 C CNN
-F 3 "" H 6100 2800 50  0000 C CNN
-	1    5900 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L TEST_1P W5
-U 1 1 56A937C8
-P 6300 1850
-F 0 "W5" H 6300 2120 50  0000 C CNN
-F 1 "TP2-N" H 6300 2050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6500 1850 50  0001 C CNN
-F 3 "" H 6500 1850 50  0000 C CNN
-	1    6300 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W3
-U 1 1 56A93D71
-P 5900 4650
-F 0 "W3" H 5900 4920 50  0000 C CNN
-F 1 "TP1-S" H 5900 4850 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6100 4650 50  0001 C CNN
-F 3 "" H 6100 4650 50  0000 C CNN
-	1    5900 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W4
-U 1 1 56A93E8E
-P 5900 5600
-F 0 "W4" H 5900 5870 50  0000 C CNN
-F 1 "TP3-S" H 5900 5800 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6100 5600 50  0001 C CNN
-F 3 "" H 6100 5600 50  0000 C CNN
-	1    5900 5600
-	-1   0    0    1   
-$EndComp
-$Comp
-L TEST_1P W11
-U 1 1 56A940CA
-P 9600 1850
-F 0 "W11" H 9600 2120 50  0000 C CNN
-F 1 "TP2-C" H 9600 2050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 9800 1850 50  0001 C CNN
-F 3 "" H 9800 1850 50  0000 C CNN
-	1    9600 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W12
-U 1 1 56A94153
-P 9600 2800
-F 0 "W12" H 9600 3070 50  0000 C CNN
-F 1 "TP4-C" H 9600 3000 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 9800 2800 50  0001 C CNN
-F 3 "" H 9800 2800 50  0000 C CNN
-	1    9600 2800
-	-1   0    0    1   
-$EndComp
 Connection ~ 6300 2400
-$Comp
-L TEST_1P W1
-U 1 1 56A94549
-P 5900 1850
-F 0 "W1" H 5900 2120 50  0000 C CNN
-F 1 "TP1-N" H 5900 2050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6100 1850 50  0001 C CNN
-F 3 "" H 6100 1850 50  0000 C CNN
-	1    5900 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6300 1850 6300 2200
 Connection ~ 6300 2200
 Wire Wire Line
 	6300 2800 6300 2400
-$Comp
-L TEST_1P W6
-U 1 1 56A94472
-P 6300 2800
-F 0 "W6" H 6300 3070 50  0000 C CNN
-F 1 "TP4-N" H 6300 3000 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6500 2800 50  0001 C CNN
-F 3 "" H 6500 2800 50  0000 C CNN
-	1    6300 2800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6350 5600 6350 5200
-$Comp
-L TEST_1P W8
-U 1 1 56A94EDF
-P 6350 5600
-F 0 "W8" H 6350 5870 50  0000 C CNN
-F 1 "TP4-S" H 6350 5800 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6550 5600 50  0001 C CNN
-F 3 "" H 6550 5600 50  0000 C CNN
-	1    6350 5600
-	-1   0    0    1   
-$EndComp
-$Comp
-L TEST_1P W7
-U 1 1 56A95683
-P 6350 4650
-F 0 "W7" H 6350 4920 50  0000 C CNN
-F 1 "TP2-S" H 6350 4850 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6550 4650 50  0001 C CNN
-F 3 "" H 6550 4650 50  0000 C CNN
-	1    6350 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6350 4650 6350 5000
 Connection ~ 6350 5000
 Connection ~ 6350 5200
 Wire Wire Line
 	9300 2800 9300 2400
-$Comp
-L TEST_1P W10
-U 1 1 56A95B30
-P 9300 2800
-F 0 "W10" H 9300 3070 50  0000 C CNN
-F 1 "TP3-C" H 9300 3000 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 9500 2800 50  0001 C CNN
-F 3 "" H 9500 2800 50  0000 C CNN
-	1    9300 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L TEST_1P W9
-U 1 1 56A95C63
-P 9300 1850
-F 0 "W9" H 9300 2120 50  0000 C CNN
-F 1 "TP1-C" H 9300 2050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 9500 1850 50  0001 C CNN
-F 3 "" H 9500 1850 50  0000 C CNN
-	1    9300 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9300 1850 9300 2200
 Wire Wire Line
@@ -838,109 +942,22 @@ Connection ~ 5900 2700
 Wire Wire Line
 	5900 1850 5900 1950
 Connection ~ 5900 1950
-$Comp
-L VCC #PWR014
-U 1 1 56A99AE1
-P 7050 1600
-F 0 "#PWR014" H 7050 1450 50  0001 C CNN
-F 1 "VCC" H 7050 1750 50  0000 C CNN
-F 2 "" H 7050 1600 50  0000 C CNN
-F 3 "" H 7050 1600 50  0000 C CNN
-	1    7050 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR015
-U 1 1 56A9A79C
-P 1400 5050
-F 0 "#PWR015" H 1400 4900 50  0001 C CNN
-F 1 "VCC" H 1400 5200 50  0000 C CNN
-F 2 "" H 1400 5050 50  0000 C CNN
-F 3 "" H 1400 5050 50  0000 C CNN
-	1    1400 5050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 5050 1350 5050
-Text Label 5850 3500 0    60   ~ 0
-TX-NORTH
-Text Label 5350 3500 2    60   ~ 0
-TX-NORTH
 Wire Wire Line
 	5350 3500 5450 3500
 Wire Wire Line
 	5750 3500 5850 3500
-$Comp
-L R R14
-U 1 1 56A9EEA9
-P 8900 3500
-F 0 "R14" V 8980 3500 50  0000 C CNN
-F 1 "0R" V 8900 3500 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 8830 3500 50  0001 C CNN
-F 3 "" H 8900 3500 50  0000 C CNN
-F 4 "http://at.rs-online.com/web/p/smd-widerstande/7409104/" V 8900 3500 60  0001 C CNN "supplyer"
-F 5 "<450pcs 0.016" V 8900 3500 60  0001 C CNN "price"
-	1    8900 3500
-	0    -1   -1   0   
-$EndComp
-Text Label 9150 3500 0    60   ~ 0
-RX-CHAIN
-Text Label 8650 3500 2    60   ~ 0
-RX-CHAIN
 Wire Wire Line
 	8650 3500 8750 3500
 Wire Wire Line
 	9050 3500 9150 3500
-$Comp
-L VCC #PWR016
-U 1 1 56AA0ADA
-P 1400 4750
-F 0 "#PWR016" H 1400 4600 50  0001 C CNN
-F 1 "VCC" H 1400 4900 50  0000 C CNN
-F 2 "" H 1400 4750 50  0000 C CNN
-F 3 "" H 1400 4750 50  0000 C CNN
-	1    1400 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 4750 1350 4750
-$Comp
-L VCC #PWR017
-U 1 1 56AA0B06
-P 1000 4750
-F 0 "#PWR017" H 1000 4600 50  0001 C CNN
-F 1 "VCC" H 1000 4900 50  0000 C CNN
-F 2 "" H 1000 4750 50  0000 C CNN
-F 3 "" H 1000 4750 50  0000 C CNN
-	1    1000 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1000 4750 1050 4750
-$Comp
-L VCC #PWR018
-U 1 1 56AA21BD
-P 1400 5300
-F 0 "#PWR018" H 1400 5150 50  0001 C CNN
-F 1 "VCC" H 1400 5450 50  0000 C CNN
-F 2 "" H 1400 5300 50  0000 C CNN
-F 3 "" H 1400 5300 50  0000 C CNN
-	1    1400 5300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 5300 1350 5300
-$Comp
-L VCC #PWR019
-U 1 1 56AA21E8
-P 1000 5300
-F 0 "#PWR019" H 1000 5150 50  0001 C CNN
-F 1 "VCC" H 1000 5450 50  0000 C CNN
-F 2 "" H 1000 5300 50  0000 C CNN
-F 3 "" H 1000 5300 50  0000 C CNN
-	1    1000 5300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1000 5300 1050 5300
 Wire Notes Line
@@ -967,23 +984,34 @@ Wire Notes Line
 	6500 3700 6500 3250
 Wire Notes Line
 	6500 3250 4750 3250
-Text Notes 8100 3650 0    60   ~ 0
-Bridge
-Text Notes 4800 3650 0    60   ~ 0
-Bridge
-Text Notes 850  5500 0    60   ~ 0
-Bridge
-$Comp
-L C C1
-U 1 1 56ADF2A8
-P 850 1950
-F 0 "C1" H 875 2050 50  0000 L CNN
-F 1 "100nF" H 875 1850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 888 1800 50  0001 C CNN
-F 3 "" H 850 1950 50  0000 C CNN
-	1    850  1950
-	1    0    0    -1  
-$EndComp
 Connection ~ 850  1700
 Connection ~ 850  3600
+Wire Notes Line
+	4800 2550 5450 2550
+Wire Notes Line
+	5450 2050 4800 2050
+Wire Notes Line
+	4800 2050 4800 2550
+Wire Notes Line
+	5450 2550 5450 2050
+Text Notes 4850 5350 0    60   ~ 0
+south conn.
+Wire Notes Line
+	4800 5350 5450 5350
+Wire Notes Line
+	5450 4850 4800 4850
+Wire Notes Line
+	4800 4850 4800 5350
+Wire Notes Line
+	5450 5350 5450 4850
+Text Notes 8250 2550 0    60   ~ 0
+east conn.
+Wire Notes Line
+	8200 2550 8850 2550
+Wire Notes Line
+	8850 2050 8200 2050
+Wire Notes Line
+	8200 2050 8200 2550
+Wire Notes Line
+	8850 2550 8850 2050
 $EndSCHEMATC
