@@ -7,17 +7,23 @@ Hardware development repository for the particle and related hardware.
 * freecad: 3D Models in [freecad](http://www.freecadweb.org/)
 * reflow: reflow soldering logs, charts and helper
 
-## PCB Projects
-Particle Version 1.21
+## PCB Projects/Versions
+### Particle Version 1.21
 Plugable particle. Requires a main grid board.
-![pluggable module with lead](docs/img/particle-tiny1634-pluggable-module-with-lead.jpg)
-![plugable module](docs/img/particle-tiny1634-pluggable-module.jpg)
+<a href="./docs/img/particle-tiny1634-pluggable-module-with-lead.jpg"><img src="./docs/img/particle-tiny1634-pluggable-module-with-lead.jpg" width=300 /></a>
+<a href="./docs/img/docs/img/particle-tiny1634-pluggable-module.jpg"><img src="./docs/img/particle-tiny1634-pluggable-module.jpg" width=300 /></a>
+<a href="./docs/img/grid-board-illustration.jpg"><img src="./docs/img/grid-board-illustration.jpg" width=300 /></a>
 
-Particle version 1.1
-![particle module version 1.1](docs/img/particle-tiny1634-v1.1.jpg)
 
-Particle version 1.1 as array
-![particle module v. 1.1 array](docs/img/particle-tiny1634-array.jpg)
-![particle module v. 1.1 array header](docs/img/particle-tiny1634-array-header.jpg)
-![particle module v. 1.1 array tail](docs/img/particle-tiny1634-array-tail.jpg)
+### Particle version 1.1
+Single particle:
+<a href="./docs/img/particle-tiny1634-v1.1.jpg"><img src="./docs/img/particle-tiny1634-v1.1.jpg" width=300 /></a>
+Array example:
+<a href="./docs/img/particle-tiny1634-array.jpg"><img src="./docs/img/particle-tiny1634-array.jpg" width=300 /></a>
+<a href="./docs/img/particle-tiny1634-array-header.jpg"><img src="./docs/img/particle-tiny1634-array-header.jpg" width=300 /></a>
+<a href="./docs/img/particle-tiny1634-array-tail.jpg"><img src="./docs/img/particle-tiny1634-array-tail.jpg" width=300 /></a>
+
+### Particle version 0.9
+Chain example:
+<a href="./docs/img/chained-particles-v0.9jpg"><img src="./docs/img/chained-particles-v0.9jpg" width=300 /></a>
 
