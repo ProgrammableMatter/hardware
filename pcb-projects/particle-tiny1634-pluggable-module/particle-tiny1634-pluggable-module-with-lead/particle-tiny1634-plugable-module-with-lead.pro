@@ -44,7 +44,7 @@ LibName29=valves
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=../particle-tiny1634-plugable-module.net
+LastNetListRead=../particle-tiny1634-pluggable-module.net
 PadDrill=0.762
 PadDrillOvalY=0.762
 PadSizeH=1.524
