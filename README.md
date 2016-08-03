@@ -9,21 +9,24 @@ Hardware development repository for the particle and related hardware.
 
 ## PCB Projects/Versions
 ### Particle Version 1.21
-Plugable particle. Requires a main grid board.
-<a href="./docs/img/particle-tiny1634-pluggable-module-with-lead.jpg"><img src="./docs/img/particle-tiny1634-pluggable-module-with-lead.jpg" width=300 /></a>
-<a href="./docs/img/docs/img/particle-tiny1634-pluggable-module.jpg"><img src="./docs/img/particle-tiny1634-pluggable-module.jpg" width=300 /></a>
-<a href="./docs/img/grid-board-illustration.jpg"><img src="./docs/img/grid-board-illustration.jpg" width=300 /></a>
-
+|   |   |   |
+|---|---|---|
+| <a href="./docs/img/particle-tiny1634-pluggable-module-with-lead.jpg"><img src="./docs/img/particle-tiny1634-pluggable-module-with-lead.jpg" width=300 /></a> | <a href="./docs/img/docs/img/particle-tiny1634-pluggable-module.jpg"><img src="./docs/img/particle-tiny1634-pluggable-module.jpg" width=200 /></a> | <a href="./docs/img/grid-board-illustration.jpg"><img src="./docs/img/grid-board-illustration.jpg" width=300 /></a> |
+| plugable particle with leads | pluggable particle | grid board illustartion |
 
 ### Particle version 1.1
-Single particle:
-<a href="./docs/img/particle-tiny1634-v1.1.jpg"><img src="./docs/img/particle-tiny1634-v1.1.jpg" width=300 /></a>
-Array example:
-<a href="./docs/img/particle-tiny1634-array.jpg"><img src="./docs/img/particle-tiny1634-array.jpg" width=300 /></a>
-<a href="./docs/img/particle-tiny1634-array-header.jpg"><img src="./docs/img/particle-tiny1634-array-header.jpg" width=300 /></a>
-<a href="./docs/img/particle-tiny1634-array-tail.jpg"><img src="./docs/img/particle-tiny1634-array-tail.jpg" width=300 /></a>
+|   |   |   | 
+|---|---|---|
+| <a href="./docs/img/particle-tiny1634-v1.1.jpg"><img src="./docs/img/particle-tiny1634-v1.1.jpg" width=300 /></a> |
+<a href="./docs/img/particle-tiny1634-array.jpg"><img src="./docs/img/particle-tiny1634-array.jpg" width=300 /></a> |
+<a href="./docs/img/particle-tiny1634-array-header.jpg"><img src="./docs/img/particle-tiny1634-array-header.jpg" width=300 /></a> |
+| single particle | array example | | |
+| <a href="./docs/img/particle-tiny1634-array-tail.jpg"><img src="./docs/img/particle-tiny1634-array-tail.jpg" width=300 /></a> | | |
+| | | |
+
 
 ### Particle version 0.9
-Chain example:
-<a href="./docs/img/chained-particles-v0.9jpg"><img src="./docs/img/chained-particles-v0.9jpg" width=300 /></a>
-
+|   |   |   | 
+|---|---|---|
+|<a href="./docs/img/chained-particles-v0.9jpg"><img src="./docs/img/chained-particles-v0.9jpg" width=300 /></a> | | |
+| chain example | | |
