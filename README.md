@@ -15,18 +15,16 @@ Hardware development repository for the particle and related hardware.
 | plugable particle with leads | pluggable particle | grid board illustartion |
 
 ### Particle version 1.1
+
 |   |   |   | 
 |---|---|---|
-| <a href="./docs/img/particle-tiny1634-v1.1.jpg"><img src="./docs/img/particle-tiny1634-v1.1.jpg" width=300 /></a> |
-<a href="./docs/img/particle-tiny1634-array.jpg"><img src="./docs/img/particle-tiny1634-array.jpg" width=300 /></a> |
-<a href="./docs/img/particle-tiny1634-array-header.jpg"><img src="./docs/img/particle-tiny1634-array-header.jpg" width=300 /></a> |
-| single particle | array example | | |
-| <a href="./docs/img/particle-tiny1634-array-tail.jpg"><img src="./docs/img/particle-tiny1634-array-tail.jpg" width=300 /></a> | | |
-| | | |
-
+|<a href="./docs/img/particle-tiny1634-v1.1.jpg"><img src="./docs/img/particle-tiny1634-v1.1.jpg" width=200/></a>|<a href="./docs/img/particle-tiny1634-array.jpg"><img src="./docs/img/particle-tiny1634-array.jpg" width=200/></a>|<a href="./docs/img/particle-tiny1634-array-header.jpg"><img src="./docs/img/particle-tiny1634-array-header.jpg" width=200/></a>|
+| single particle | array example | |
+| <a href="./docs/img/particle-tiny1634-array-header.jpg"><img src="./docs/img/particle-tiny1634-array-header.jpg" width=200 /></a> | <a href="./docs/img/particle-tiny1634-array-tail.jpg"><img src="./docs/img/particle-tiny1634-array-tail.jpg" width=200 /></a> | x |
+| array header | array tail | |
 
 ### Particle version 0.9
-|   |   |   | 
-|---|---|---|
-|<a href="./docs/img/chained-particles-v0.9.jpg"><img src="./docs/img/chained-particles-v0.9.jpg" width=300 /></a> | | |
-| chain example | | |
+|   |
+|---|
+|<a href="./docs/img/chained-particles-v0.9.jpg"><img src="./docs/img/chained-particles-v0.9.jpg" width=200/></a>|
+| chain example |
