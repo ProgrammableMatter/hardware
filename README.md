@@ -3,9 +3,9 @@ Particle Hardware Repository
 Hardware development repository for the particle and related hardware.
 
 ## Folder content
-* pcb-projects: pcb projects
-* freecad: 3D Models in [freecad](http://www.freecadweb.org/)
-* reflow: reflow soldering logs, charts and helper
+* **pcb-projects**: pcb projects
+* **freecad**: 3D Models drawn with [FreeCAD](http://www.freecadweb.org/)
+* **reflow**: reflow soldering logs, charts and helper
 
 ## PCB Projects/Versions
 ### Particle Version 1.21
