@@ -28,5 +28,5 @@ Hardware development repository for the particle and related hardware.
 ### Particle version 0.9
 |   |   |   | 
 |---|---|---|
-|<a href="./docs/img/chained-particles-v0.9jpg"><img src="./docs/img/chained-particles-v0.9jpg" width=300 /></a> | | |
+|<a href="./docs/img/chained-particles-v0.9.jpg"><img src="./docs/img/chained-particles-v0.9.jpg" width=300 /></a> | | |
 | chain example | | |
