@@ -11,7 +11,7 @@ Hardware development repository for the particle and related hardware.
 ### Particle Version 1.21
 |   |   |   |
 |---|---|---|
-| <a href="./docs/img/particle-tiny1634-pluggable-module-with-lead.jpg"><img src="./docs/img/particle-tiny1634-pluggable-module-with-lead.jpg" width=300 /></a> | <a href="./docs/img/docs/img/particle-tiny1634-pluggable-module.jpg"><img src="./docs/img/particle-tiny1634-pluggable-module.jpg" width=200 /></a> | <a href="./docs/img/grid-board-illustration.jpg"><img src="./docs/img/grid-board-illustration.jpg" width=300 /></a> |
+| <a href="./docs/img/particle-tiny1634-pluggable-module-with-lead.jpg"><img src="./docs/img/particle-tiny1634-pluggable-module-with-lead.jpg" width=200 /></a> | <a href="./docs/img/docs/img/particle-tiny1634-pluggable-module.jpg"><img src="./docs/img/particle-tiny1634-pluggable-module.jpg" width=200 /></a> | <a href="./docs/img/grid-board-illustration.jpg"><img src="./docs/img/grid-board-illustration.jpg" width=200 /></a> |
 | plugable particle with leads | pluggable particle | grid board illustartion |
 
 ### Particle version 1.1
@@ -19,9 +19,9 @@ Hardware development repository for the particle and related hardware.
 |   |   |   | 
 |---|---|---|
 |<a href="./docs/img/particle-tiny1634-v1.1.jpg"><img src="./docs/img/particle-tiny1634-v1.1.jpg" width=200/></a>|<a href="./docs/img/particle-tiny1634-array.jpg"><img src="./docs/img/particle-tiny1634-array.jpg" width=200/></a>|<a href="./docs/img/particle-tiny1634-array-header.jpg"><img src="./docs/img/particle-tiny1634-array-header.jpg" width=200/></a>|
-| single particle | array example | |
-| <a href="./docs/img/particle-tiny1634-array-header.jpg"><img src="./docs/img/particle-tiny1634-array-header.jpg" width=200 /></a> | <a href="./docs/img/particle-tiny1634-array-tail.jpg"><img src="./docs/img/particle-tiny1634-array-tail.jpg" width=200 /></a> | x |
-| array header | array tail | |
+| single particle | array example | array header |
+| <a href="./docs/img/particle-tiny1634-array-tail.jpg"><img src="./docs/img/particle-tiny1634-array-tail.jpg" width=200 /></a> | | | 
+| array tail | | |
 
 ### Particle version 0.9
 |   |
